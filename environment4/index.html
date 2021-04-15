@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-gb" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+<link rel="stylesheet" href="/css/style.css">
+
+<title>Data Sharing</title>
+</head>
+<body>
+  <header><a href="/" class="logo"><img src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></header>
+  <article>
+
+
+
+
+  <p>We have to be really careful about sharing people’s data, making sure that the data are kept safe and are only used by people in the two teams, for the purposes of identifying the school at risk.</p>
+<p>You will need to sign this data sharing agreement. Go back to your team and read through this sheet together. Once you have read and understand it, ask everyone to sign it and then return to me.</p>
+ <article class="document">
+<h2> Data sharing agreement</h2>
+<p>We, the Employment team, agree to share information with all official members of the Environment team.</p>
+<p>I agree that these data will only be used for the purposes of identifying which school is going to be hit by the hiccupping disease.</p>
+<p>I agree that the only information that I will share is the Sharing ID and the Health risk score.</p>
+<p>I agree that the data will be safely stored and that I shall make no attempt to identify individuals. The Sharing ID and the Environment data will be destroyed after use.</p>
+<p>Signed:</p>
+ <form action="/environment5" id="myForm" >
+<input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
+<button type="submit">Submit</button>
+</form>
+</article>
+<script type="text/javascript">
+    window.onload = function () {
+    let form = document.getElementById("myForm");
+    let inputs = form.children;
+    for (let i = 0; i < inputs.length; i++) {
+        let el = inputs[i];
+        if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
+            continue
+        }
+        let cachedVal = localStorage.getItem(el.attributes["name"].value)
+        if (cachedVal != null) {
+            el.value = cachedVal;
+        }
+    }
+}
+
+
+function clearCache() {
+    localStorage.clear()
+}
+
+  </script>
+  </article>
+</body>
+</html>
