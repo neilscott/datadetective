@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-gb" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.className = 'js';</script>
+  <meta name="description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease."/>
+  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+  <link rel="canonical" href="https://datadetective.com/" />
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="We need your help! | Data Detective">
+  <meta property="og:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
+  <meta property="og:url" content="https://datadetective.com/">
+  <meta property="og:site_name" content="Data Detective">
+  <meta property="og:image" content="/social.png">
+  <meta property="og:image:secure_url" content="/social.png">
+  <meta property="og:image:width" content="1270">
+  <meta property="og:image:height" content="440">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="We need your help! | Data Detective">
+  <meta name="twitter:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
+  <meta name="twitter:image" content="/social.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="/css/style.css?4">
+  <title>We need your help! | Data Detective</title>
+</head>
+<body>
+  <div class="progress hidden ">
+    <div class="progress-bar " role="progressbar"
+  aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+      20 %
+    </div>
+  </div>
+  <header><a href="/" class="logo"><img src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></header>
+  <article>
+    <h2>The Scenario</h2>
+<p>There has been a new outbreak of a new infectious disease in Edinburgh.</p>
+<ul>
+<li>List on</li>
+<li>list two</li>
+</ul>
+<p>Scientists from the Social &amp; Public Health Sciences Unit have reason to believe that the disease is going to spread to Glasgow, and fast.</p>
+<p>A vaccine has been created, but supplies are low…</p>
+<p>The scientists need to know which Glasgow school is most likely to be hit by the disease first, so they can dispatch the vaccine and prevent the disease spreading</p>
+<p>You’ll be assigned one of two sets of data: Environment data or Employment. Your Challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.</p>
+<!--
+Your help is needed!
+SOCIAL & PUBLIC HEALTH SCIENCES UNIT:OFFICIAL BRIEFING
+
+The situation
+
+There has been an outbreak of new, infectious disease in Edinburgh.
+
+Scientists from the Social & Public Health Sciences Unit have reason to believe that the disease is going to spread to Glasgow, and fast.
+
+A vaccine has been created, but supplies are low…
+
+Your help is needed!
+
+The scientists need to know which Glasgow school is most likely to be hit by the disease first, so they can dispatch the vaccine and prevent the disease spreading
+
+What we know so far
+
+The scientists believe that people who live in cities are at highest risk. Because they are busier and it is harder for people to keep 2 meters apart.
+
+Schools that have lots of pupils who live in cities will be most at risk.
+
+
+
+
+
+Hello, I'm the Chief Scientist. There has been an outbreak of an infectious disease at a school in a neighbouring area and we want to identify which school is going to be hit next.
+
+You will be assigned a set of data to analyse.
+
+You’ll need to work as quickly as possible to identify the school using the data we have gathered.
+
+
+You’ll be divided into two teams: the Environment Team and the Employment team. Your Challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.
+
+
+-->
+<!--<button><a href="/environment">Environment</a></button>   <button><a href="/employment">Employment</a></button>-->
+<p><button><a href="#" onclick="randomSite();">Get your data</a></button></p>
+<script>
+    var sites = [
+        "/environment",
+        //"/employment"
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+<!--
+<script>
+    function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+        var end =setInterval(function () {
+            minutes = parseInt(timer / 60, 10)
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                window.location = "http://www.example.com";
+                clearInterval(end);
+            }
+        }, 1000);
+    }
+
+    window.onload = function () {
+        var fiveMinutes = 300,
+            display = document.querySelector('#time');
+        startTimer(fiveMinutes, display);
+    };
+</script>
+</head>
+<body>
+<div>Registration closes in <span id="time">05:00</span></div>
+<form id="form1" runat="server">
+</form>-->
+
+  </article>
+</body>
+</html>

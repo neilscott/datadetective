@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "VAG Rounded Std";
+  src: url("../fonts/subset-VAGRoundedStd-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "VAG Rounded Std";
+  src: url("../fonts/subset-VAGRounded-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+address, article, aside, audio, blockquote, datalist, details, dl, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, iframe, img, nav, ol, optgroup, option, output, p, pre, section, table, textarea, ul, video {
+  margin-bottom: 1rem;
+}
+
+html, input, select, button {
+  font-family: "VAG Rounded Std", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+article {
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+  Label the data
+  */
+  td:nth-of-type(1):before {
+    content: "First Name";
+  }
+
+  td:nth-of-type(2):before {
+    content: "Last Name";
+  }
+
+  td:nth-of-type(3):before {
+    content: "Job Title";
+  }
+
+  td:nth-of-type(4):before {
+    content: "Favorite Color";
+  }
+
+  td:nth-of-type(5):before {
+    content: "Wars of Trek?";
+  }
+}
+@page {
+  size: A4;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+@media print {
+  *, :after, :before, :first-letter, blockquote:first-line, div:first-line, li:first-line, p:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  footer, header {
+    display: none;
+  }
+
+  h2 {
+    margin-bottom: 0.5cm;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  #comments, #respond, .site-footer, .site-header, aside#sidebar {
+    display: none;
+  }
+
+  #main {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  a:after {
+    content: "( " attr(href) " )";
+  }
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after, a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  blockquote, pre {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+    padding: 1rem;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  img, tr {
+    page-break-inside: avoid;
+  }
+
+  h2, h3, p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
