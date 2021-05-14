@@ -42,102 +42,23 @@
   <header><div class="container"><a class="site-title" href="/"><img class="logo" src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></div></header>
   <article>
     <div class="container">
-    <div class="two-column">
-<div class="img-bg mb1 grid-column-2-md">
-  <img class=" rotate box-shadow " src="/img/dailynews-small.jpg" alt="Newspaper showing crisis">
-</div>
-<div class="grid-column-1-md">
-<h1>Could you be a Data Detective?</h1>
-<p>Data Detective is a game to show how you to link data securely to help stop the spread of a mystery disease.</p>
-<p><a class="btn" href="/play">Play Now →</a></p>
-</div>
-</div>
-<footer>
-</footer>
-<h2>The Scenario</h2>
-<p>There has been a new outbreak of a new infectious disease in Edinburgh.</p>
-<ul>
-<li>List on</li>
-<li>list two</li>
-</ul>
-<p>Scientists from the Social &amp; Public Health Sciences Unit have reason to believe that the disease is going to spread to Glasgow, and fast.</p>
-<p>A vaccine has been created, but supplies are low…</p>
-<p>The scientists need to know which Glasgow school is most likely to be hit by the disease first, so they can dispatch the vaccine and prevent the disease spreading</p>
-<p>You’ll be assigned one of two sets of data: Environment data or Employment. Your Challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.</p>
-<hr >
-<div id="demo"></div>
-<img src="/img/bug.svg">
-<p>In the game you'll learn about how data is stored and use that if</p>
-<h2>What you'll learn</h2>
-<ul>
-<li><strong>Team work:</strong> players must work together within their teams and with the other team to win the game</li>
-<li><strong>Listening skills:</strong> players must listen to the Chief Scientist to understand their challenge and what needs to be done to complete the game</li>
-<li><strong>Reading skills:</strong> players must follow a set of written instructions and read and sign data sharing forms</li>
-<li><strong>Mathematics:</strong> players must familiarise themselves with the structure and information stored in a simple dataset and use that information to carry out a series of calculations and make recommendations</li>
-</ul>
-<details>
-  <summary>Learning Outcomes</summary>
-The game draws upon a range of skills including:
-<ul>
-<li>Team work – players must work together within their teams and with the other team to win the game</li>
-<li>Listening skills – players must listen to the Chief Scientist to understand their challenge and what needs to be done to complete the game</li>
-<li>Reading skills – players must follow a set of written instructions and read and sign data sharing forms</li>
-<li>Mathematics: players must familiarise themselves with the structure and information stored in a simple dataset and use that information to carry out a series of calculations and make recommendations</li>
-</ul>
-</details>
-<details>
-  <summary>Information for Teachers and Parents</summary>
-Using the example of an infectious disease, Data Detectives will demonstrate that:
-<ul>
-<li>There are many ways in which our physical and social environments influence health. Researchers use data, such as health records and census data, to understand more about this.</li>
-<li>The data that researchers use are only made available under a strict set of conditions, including that the data are anonymised and stored securely</li>
-<li>Sometimes data sharing is essential in order to get the right answers.</li>
-<li>In these situations, data are shared safely, they are only shared among approved persons, and they are only used to answer pre-specified and approved research questions.</li>
-</ul>
-</details>
-<!--
-Your help is needed!
-SOCIAL & PUBLIC HEALTH SCIENCES UNIT:OFFICIAL BRIEFING
-
-The situation
-
-There has been an outbreak of new, infectious disease in Edinburgh.
-
-Scientists from the Social & Public Health Sciences Unit have reason to believe that the disease is going to spread to Glasgow, and fast.
-
-A vaccine has been created, but supplies are low…
-
-Your help is needed!
-
-The scientists need to know which Glasgow school is most likely to be hit by the disease first, so they can dispatch the vaccine and prevent the disease spreading
-
-What we know so far
-
-The scientists believe that people who live in cities are at highest risk. Because they are busier and it is harder for people to keep 2 meters apart.
-
-Schools that have lots of pupils who live in cities will be most at risk.
-
-
-
-
-
-Hello, I'm the Chief Scientist. There has been an outbreak of an infectious disease at a school in a neighbouring area and we want to identify which school is going to be hit next.
-
-You will be assigned a set of data to analyse.
-
-You’ll need to work as quickly as possible to identify the school using the data we have gathered.
-
-
-You’ll be divided into two teams: the Environment Team and the Employment team. Your Challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.
-
-
--->
-<!--<button><a href="/environment">Environment</a></button>   <button><a href="/employment">Employment</a></button>-->
-<p><button><a href="#" onclick="randomSite();">Get your data</a></button></p>
+    <div class="two-column-md grid-column-1-md">
+  <div class="img-bg mb1 grid-column-2-md">
+    <img class=" rotate box-shadow mb2 " src="/img/dailynews-small.jpg" alt="Newspaper showing crisis">
+  </div>
+  <div class="pt2-md">
+<h1>The Scenario</h1>
+<p>There has been an outbreak of a new infectious disease in Edinburgh.</p>
+<p>Scientists from the Social &amp; Public Health Sciences Unit have reason to believe that the disease is going to spread to Glasgow, and fast!</p>
+<p>A vaccine has been created, but supplies are low …</p>
+<p>The scientists need to know which Glasgow school is most likely to be hit by the disease first, so they can dispatch the vaccine and prevent the disease spreading.</p>
+<p>You’ll be <span class="no-js-hide">randomly</span> assigned one of two teams: Environment or Employment. Your challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.</p>
+<p><button class="btn no-js-hide" onclick="randomSite();">Join your team →</button><a class="btn no-js-show" href="/environment" onclick="randomSite();">Environment →</a></p>
+<p><a class="btn no-js-show" href="/employment" onclick="randomSite();">Employment →</a></p>
 <script>
     var sites = [
         "/environment",
-        //"/employment"
+        "/employment"
     ];
 
     function randomSite() {
@@ -145,37 +66,8 @@ You’ll be divided into two teams: the Environment Team and the Employment team
         location.href = sites[i];
     }
 </script>
-<!--
-<script>
-    function startTimer(duration, display) {
-        var timer = duration, minutes, seconds;
-        var end =setInterval(function () {
-            minutes = parseInt(timer / 60, 10)
-            seconds = parseInt(timer % 60, 10);
-
-            minutes = minutes < 10 ? "0" + minutes : minutes;
-            seconds = seconds < 10 ? "0" + seconds : seconds;
-
-            display.textContent = minutes + ":" + seconds;
-
-            if (--timer < 0) {
-                window.location = "http://www.example.com";
-                clearInterval(end);
-            }
-        }, 1000);
-    }
-
-    window.onload = function () {
-        var fiveMinutes = 300,
-            display = document.querySelector('#time');
-        startTimer(fiveMinutes, display);
-    };
-</script>
-</head>
-<body>
-<div>Registration closes in <span id="time">05:00</span></div>
-<form id="form1" runat="server">
-</form>-->
+  </div>
+</div>
 
     
 
