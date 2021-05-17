@@ -146,8 +146,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-h1 {
+h1, h1 input {
   font-size: 2rem;
+  padding: 0;
+  height: auto;
+  pointer-events: none;
+  position: relative;
+  top: auto;
 }
 
 img,
@@ -204,11 +209,10 @@ blockquote {
 
 .document {
   background: white;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
   margin: 2rem auto;
-  padding: 2rem;
+  padding: 3rem 2rem;
   max-width: 75ch;
-  transform: rotate(-1deg);
 }
 
 .circle-outer {
@@ -273,7 +277,7 @@ blockquote {
 .circle {
   position: absolute;
   border: 1px solid black;
-  background-color: var(--magenta);
+  background-color: var(--orange);
   padding: 0;
   margin: 0em auto;
   width: 20em;
@@ -283,6 +287,7 @@ blockquote {
   border-radius: 100%;
   list-style: none;
   overflow: hidden;
+  transform: rotate(30deg);
 }
 
 header {
@@ -318,6 +323,10 @@ article {
   .grid-md-2 {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.dib {
+  display: inline-block;
 }
 
 @media (min-width: 48.0625em) {
@@ -362,6 +371,10 @@ article {
   .no-touch {
     display: none;
   }
+
+  .circle {
+    transform: rotate(-90deg);
+  }
 }
 @media (min-width: 48.0625em) {
   .grid-column-1-md {
@@ -402,7 +415,6 @@ article {
   border: 0;
   border-radius: 0;
   border-bottom: 1px solid black;
-  font-family: cursive;
 }
 
 .js .no-js-hide {
@@ -498,13 +510,12 @@ legend {
   white-space: normal;
 }
 
-.clearinput {
+.clearinput, .readonly, .readonly:active, .readonly:focus, input[readonly], textarea[readonly] {
   border: 0;
   display: inline-block;
-}
-
-input[readonly], textarea[readonly] {
-  background-color: var(--color-bg-secondary);
+  background-color: white;
+  outline: none;
+  cursor: pointer;
 }
 
 label {

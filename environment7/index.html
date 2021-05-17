@@ -43,9 +43,9 @@
   <article>
     <div class="container">
     <h1>Data Decoding</h1>
-<p>In order to securely share your data with the other team, you'll need to convert the numbers into codes.</p>
-<p>Your linkage key is <strong>III 3</strong>.</p>
-<p>Line up the code wheel to that position and convert the Risk Score number into a sharing ID.</p>
+<p>Thank you for encoding your data. But that is only half the job. We now need to decode the data from the employment team.</p>
+<p>To do this you need to convert the Sharing ID to the correct school.</p>
+<p>The linkage key is <strong>C 3</strong>. Line up the middle code wheel to that position and convert the Sharing ID into a School (A,B,C,or D).</p>
 <!--
 
 
@@ -53,59 +53,63 @@ When communication officers return with signed agreement, hand them the Sharing 
   <form id="myForm" ><input name="fullName" class="clearinput" type="text" class="b-none" readonly><br>
  </form>-->
 <div class="grid grid-md-2">
-<form  method="get" action="/environment6">
+<form  method="get" action="/environment8">
  <table>
           <thead>
             <tr>
-              <th>
+            <th>
                 Sharing ID
               </th>
               <th>
-               Employment Score
+                Risk Score
+              </th>
+              <th>
+             School
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Z</td>
+              <td>W</td>
+              <td>0</td>
               <td>
-     <input name="D" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
-            </tr>
-            <tr>
-              <td>Y</td>
-              <td>
-     <input name="D" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>X</td>
+              <td>4</td>
               <td>
-     <input name="D" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>W</td>
+              <td>Y</td>
+              <td>1</td>
               <td>
-     <input name="D" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input  type="" value="" pattern="A" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+            </tr>
+            <tr>
+              <td>Z</td>
+              <td>4</td>
+              <td>
+     <input  type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
           </tbody>
         </table>
-        <label>School Zero</label>
-        <input name="zero" type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
-        <input  type="submit"
 <input  class="btn"  type="submit"  value="Check Your Answers" name="Test">
 </form>
 <div>
  <ul class="circle-outer "  style="transform: rotate(315deg);" >
-  <li><div class="text">I</div></li>
-    <li><div class="text">II</div></li>
-    <li><div class="text">III</div></li>
-    <li><div class="text">IV</div></li>
- <div class="circle draggable_wp" id="target"  style="transform: rotate(30deg);">
+  <li><div class="text">A</div></li>
+    <li><div class="text">B</div></li>
+    <li><div class="text">C</div></li>
+    <li><div class="text">D</div></li>
+ <div class="circle draggable_wp" id="target">
   <li><div class="text">W</div></li>
     <li><div class="text">X</div></li>
     <li><div class="text">Y</div></li>
     <li><div class="text">Z</div></li>
 <div>
- <div class="circle-inner" style="transform: rotate(180deg);" id="target" >
+ <div class="circle-inner" style="transform: rotate(90deg);" id="target" >
   <li><div class="text">1</div></li>
     <li><div class="text">2</div></li>
     <li><div class="text">3</div></li>
@@ -113,10 +117,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 <div>
 <div>
 </div>
- <script type="text/javascript"
-    src="http://code.jquery.com/jquery-3.5.1.js"
-
-  ></script>
+ <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">//<![CDATA[
 
 
@@ -203,6 +204,9 @@ When communication officers return with signed agreement, hand them the Sharing 
 
     }
 }
+
+
+
 
   </script>
 </div>
