@@ -88,7 +88,7 @@ html, input, select, button {
 }
 
 body {
-  background-color: transparent;
+  background-color: var(--beige);
   color: var(--black);
   padding-top: 5.75rem;
   min-height: 100vh;
@@ -105,7 +105,7 @@ article {
   min-height: calc(100vh - 6rem);
   position: relative;
   z-index: 1;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 4rem;
 }
 
 ul {
@@ -204,19 +204,21 @@ blockquote {
 
 .document {
   background: white;
-  box-shadow: 0 0.5mm 2mm rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
   margin: 2rem auto;
   padding: 2rem;
   max-width: 75ch;
+  transform: rotate(-1deg);
 }
 
 .circle-outer {
   position: relative;
-  background-color: var(--magenta);
+  background-color: var(--tomato);
   border: 1px solid black;
   padding: 0;
   margin: 0em auto;
   width: 30em;
+  color: white;
   height: 30em;
   border-radius: 100%;
   list-style: none;
@@ -254,8 +256,9 @@ blockquote {
 }
 .circle-inner {
   position: absolute;
-  background-color: var(--green);
+  background-color: var(--white);
   border: 1px solid black;
+  color: black;
   padding: 0;
   margin: 0em auto;
   width: 10em;
@@ -270,7 +273,7 @@ blockquote {
 .circle {
   position: absolute;
   border: 1px solid black;
-  background-color: var(--orange);
+  background-color: var(--magenta);
   padding: 0;
   margin: 0em auto;
   width: 20em;
@@ -286,7 +289,6 @@ header {
   background-color: var(--beige);
   border-top: 2px solid var(--tomato);
   padding: 1.25rem 1rem 1.25rem;
-  box-shadow: inset 0px -11px 8px -10px rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
   left: 0;
@@ -302,6 +304,10 @@ header {
 .logo {
   margin: 0;
   width: 7.5rem;
+}
+
+article {
+  box-shadow: 0px -11px 8px -10px rgba(0, 0, 0, 0.2);
 }
 
 .grid {
@@ -336,6 +342,27 @@ header {
   grid-column-start: 2;
 }
 
+@media (min-width: 48.0625em) {
+  .hide-md {
+    display: none;
+  }
+}
+
+.tac {
+  text-align: center;
+}
+
+@media (max-width: 48.0525em) {
+  .show-md {
+    display: none;
+  }
+}
+
+@media (hover: none) {
+  .no-touch {
+    display: none;
+  }
+}
 @media (min-width: 48.0625em) {
   .grid-column-1-md {
     grid-column-start: 1;
@@ -555,10 +582,17 @@ input {
 }
 
 table input {
-  max-width: 4rem;
+  max-width: 2rem;
+}
+@media (min-width: 48.0625em) {
+  table input {
+    max-width: 4rem;
+  }
 }
 
 .btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
   cursor: pointer;

@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://datadetective.com/" />
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="New Information! | Data Detective">
+  <meta property="og:title" content="Thank you | Data Detective">
   <meta property="og:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
   <meta property="og:url" content="https://datadetective.com/">
   <meta property="og:site_name" content="Data Detective">
@@ -19,7 +19,7 @@
   <meta property="og:image:height" content="440">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="New Information! | Data Detective">
+  <meta name="twitter:title" content="Thank you | Data Detective">
   <meta name="twitter:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
   <meta name="twitter:image" content="/social.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -30,7 +30,7 @@
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="/css/style.css?4">
-  <title>New Information! | Data Detective</title>
+  <title>Thank you | Data Detective</title>
 </head>
 <body>
   <div class="progress hidden ">
@@ -42,11 +42,36 @@
   <header><div class="container"><a class="site-title" href="/"><img class="logo" width="130px" height="50px" src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></div></header>
   <article>
     <div class="container">
-    <h1>Latest Information!</h1>
-<p>Thanks for providing us with your findings. Unfortunately, the teams have identified different schools.</p>
-<p>An update from our researchers indicates that we need to know about parents’ jobs <strong>AND</strong> where children live to identify the correct school.</p>
-<p>This is no longer a race between teams. You’re going to have to work together and share data.</p>
-<p><a class="btn" href="/environment5">Work with the other team</a></p>
+    <h1>Thank you</h1>
+<p>We will audit your results and get in touch shortly, if we need any other information.</p>
+<script src="/js/lottie-player.js"></script>
+<p><lottie-player autoplay loop mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player></p>
+<script>
+    function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+        var end =setInterval(function () {
+            minutes = parseInt(timer / 60, 10)
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ?  + minutes : minutes;
+            seconds = seconds < 10 ? + seconds : seconds;
+
+            display.textContent = seconds;
+
+            if (--timer < 0) {
+                window.location = "/employment4";
+                clearInterval(end);
+            }
+        }, 1000);
+    }
+
+    window.onload = function () {
+        var fiveMinutes = 5,
+        display = document.querySelector('#time');
+        startTimer(fiveMinutes, display);
+    };
+</script>
+<p>Please hold on for <span id="time">5</span> seconds.</p>
 
     
 

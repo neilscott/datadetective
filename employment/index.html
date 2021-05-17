@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://datadetective.com/" />
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Employment data | Data Detective">
+  <meta property="og:title" content="Employment Team | Data Detective">
   <meta property="og:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
   <meta property="og:url" content="https://datadetective.com/">
   <meta property="og:site_name" content="Data Detective">
@@ -19,7 +19,7 @@
   <meta property="og:image:height" content="440">
   <meta property="og:image:type" content="image/png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Employment data | Data Detective">
+  <meta name="twitter:title" content="Employment Team | Data Detective">
   <meta name="twitter:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
   <meta name="twitter:image" content="/social.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -30,7 +30,7 @@
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="/css/style.css?4">
-  <title>Employment data | Data Detective</title>
+  <title>Employment Team | Data Detective</title>
 </head>
 <body>
   <div class="progress hidden ">
@@ -39,19 +39,48 @@
        %
     </div>
   </div>
-  <header><div class="container"><a class="site-title" href="/"><img class="logo" src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></div></header>
+  <header><div class="container"><a class="site-title" href="/"><img class="logo" width="130px" height="50px" src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></div></header>
   <article>
     <div class="container">
-    <p>You hold Employment data on Glasgow. This is really useful data to have, because the jobs that people have can affect your health.</p>
+    <h1>Employment Team</h1>
+<div class="grid grid-md-2 two-column-md">
+  <div class="mb1 grid-column-2">
+    <img src="/img/employment.svg" alt="">
+  </div>
+  <div class="grid-column-1">
+<p>You hold Employment data on Glasgow. This is really useful data to have, because the jobs that people have can affect your health.</p>
 <p>For example, people who work on building sites are more likely to be in an accident, while people who sit at desks all day get less physical activity.</p>
 <p>Research shows that adults who are key workers, i.e. those who work in hospitals, who drive public transport, or work in supermarkets, are more likely to catch the disease. Because they can’t work from home.</p>
 <p>You’re going to need to use the Employment data to work out which school is at highest risk.</p>
-<p>Each team has a different dataset, but they have some things in common. Both datasets have columns – the first column contains School ID. There are four schools contained in the datasets. Employment team – can you see your school ID? What is it made up of? (numbers, letters). And Environment team, can you see your school ID? What is it made up of? Next there is a column for pupil names. These have been removed, to make the datasets anonymous. Instead each pupil has been given an id. Environment team, can you see your pupil ID? What is it made up of? (numbers, letters). And Employment team what is your pupil ID? We also don’t need to know dates of birth to understand which school is at greatest risk, so these have been blanked out.</p>
-<p>The next column contains some really important information which can tell us about who might be more likely to catch the disease. For the environment team you have information on where pupils live and in the employment team you have information on the jobs that pupil’s parents do.</p>
-<p>You will need to assign a data officer – this is the person responsible for entering new information into the dataset. And a communication officer– this person will pass on messages to me when you have carried out tasks. Once you decided who will take on these roles, please consult the briefing paper - this will tell you more about your data and what you need to do next.</p>
-<blockquote>
-  This is a quote
-</blockquote>
+<p><a class="btn" href="/employment2">Get your data →</a></p>
+  </div>
+</div>
+ <p id="display">Time Left: 0</p><p>
+        <button id="start">Start</button>
+<script type="text/javascript">
+  var start = document.getElementById("start");
+var dis = document.getElementById("display");
+var finishTime;
+var timerLength = 10;
+var timeoutID;
+dis.innerHTML = "Time Left: " + timerLength;
+
+if(localStorage.getItem('myTime')){
+  Update();
+}
+start.onclick = function () {
+    localStorage.setItem('myTime', ((new Date()).getTime() + timerLength * 1000));
+    if (timeoutID != undefined) window.clearTimeout(timeoutID);
+    Update();
+}
+
+function Update() {
+    finishTime = localStorage.getItem('myTime');
+    var timeLeft = (finishTime - new Date());
+    dis.innerHTML = "Time Left: " + Math.max(timeLeft/1000,0);
+    timeoutID = window.setTimeout(Update, 100);
+}
+</script>
 
     
 
