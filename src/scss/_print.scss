@@ -1,0 +1,76 @@
+@page{
+  size:A4;
+  margin-top:2cm;
+  margin-bottom:2cm;
+  margin-left:2cm;
+  margin-right:2cm
+}
+@media print{
+  *,:after,:before,:first-letter,blockquote:first-line,div:first-line,li:first-line,p:first-line{
+      background:transparent!important;
+      color:#000!important;
+      box-shadow:none!important;
+      text-shadow:none!important
+  }
+  footer,header{
+      display:none
+  }
+  h2{
+      margin-bottom:0.5cm
+  }
+  h1{
+      page-break-before:always
+  }
+
+
+  #comments,#respond,.site-footer,.site-header,aside#sidebar{
+      display:none
+  }
+  #main{
+      width:90%;
+      margin:0px;
+      padding:0px
+  }
+  a:after{
+      content:"( " attr(href) " )"
+  }
+  h1{
+      font-size:32px!important
+  }
+  p{
+      font-size:16px!important
+  }
+  a,a:visited{
+      text-decoration:underline
+  }
+  a[href]:after{
+      content:" (" attr(href) ")"
+  }
+  abbr[title]:after{
+      content:" (" attr(title) ")"
+  }
+  a[href^="#"]:after,a[href^="javascript:"]:after{
+      content:""
+  }
+  pre{
+      white-space:pre-wrap!important
+  }
+  blockquote,pre{
+      border:1px solid #999;
+      page-break-inside:avoid;
+      padding:1rem
+  }
+  thead{
+      display:table-header-group
+  }
+  img,tr{
+      page-break-inside:avoid
+  }
+  h2,h3,p{
+      orphans:3;
+      widows:3
+  }
+  h2,h3{
+      page-break-after:avoid
+  }
+}

@@ -1,0 +1,75 @@
+
+
+.table-overflow {
+
+  overflow-x: auto;
+ //   display: block;
+   // position:relative;
+}
+table {
+  /* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
+  border-collapse: collapse;
+  width: 100%;
+   //border-top: 1px solid #aaa;
+  // border-left: 1px solid #aaa;
+
+}
+
+td,
+th {
+  border: 1px solid #aaa;
+  text-align: left;
+  padding: .5rem;
+}
+
+.bb {
+  border-bottom: 2px solid #666;
+}
+
+
+
+th {
+  background: #bbb;
+}
+
+
+tr:nth-child(even) {
+  /* Set every other cell slightly darker. Improves readability. */
+  background: #eee;
+}
+
+
+table caption {
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+
+
+ td {
+  text-align:center;
+}
+
+table {
+  font-family: Calibri, Arial,sans-serif
+}
+table {
+  input {
+      font-family: Calibri, Arial,sans-serif
+  }
+}
+
+th {
+
+    height: 1.615rem;
+
+    padding: 0 6px;
+}
+.bold {
+    font-weight: bold;
+}
+th {
+    background: #ddd;
+    text-align: center;
+}
+

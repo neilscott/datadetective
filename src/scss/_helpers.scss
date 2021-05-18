@@ -1,0 +1,194 @@
+.grid {
+  display: grid;
+}
+
+
+.grid-md-2 {
+  @include mq($from:m) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.dib {
+  display: inline-block;
+}
+
+.grid-md-3 {
+  @include mq($from:m) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-column-gap {
+  grid-column-gap: 1rem;
+}
+
+.grid-column-gap-2 {
+  grid-column-gap: 2rem;
+}
+.grid-column-1 {
+
+
+  grid-column-start:1;
+
+
+}
+
+.grid-column-2 {
+
+  grid-column-start:2;
+
+}
+
+
+
+    .hide-md{@include mq($from:m) {
+        display:none
+      }
+
+}
+.tac {
+  text-align: center;
+
+}
+
+
+    .show-md{
+      @include mq($until:m) {
+        display:none
+      }
+
+}
+
+@media (hover: none) {
+  .no-touch {
+    display: none;
+  }
+
+
+  .circle {
+    transform: rotate(-90deg)
+  }
+}
+
+.grid-column-1-md {
+@include mq($from:m) {
+
+  grid-column-start:1;
+}
+
+}
+
+.grid-column-2-md {
+@include mq($from:m) {
+  grid-column-start:2;
+}
+
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.hidden {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
+
+.times {
+  font-family: Arial,sans-serif;
+}
+
+.times input {
+  border:0;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  //font-family: cursive;
+}
+.js {
+
+    .no-js-hide {
+    visibility: visible;
+  }
+  .no-js-show {
+    visibility: hidden;
+      display: none;
+
+    &::after {
+      display: none;
+    }
+  }
+
+}
+
+.no-js {
+  .no-js-hide {
+    visibility: hidden;
+    display: none;
+     &::after {
+      display: none;
+    }
+  }
+  .no-js-show {
+    visibility: visible;
+  }
+
+}
+
+
+.box-shadow {
+  box-shadow: 3px 3px 6px rgba(0,0,0,.2);
+}
+.rotate {
+  transform: rotate(2deg);
+}
+
+
+
+.pt1 {
+  padding-top: 1rem;
+
+}
+
+
+.pt1-md {
+ @include mq($from:m) {
+ padding-top: 1rem;
+}
+
+}
+
+.pt2-md {
+ @include mq($from:m) {
+ padding-top: 2rem;
+}
+
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+
+}
+
+.mt1 {
+  margin-top: 1rem;
+
+}
+.mb1 {
+  margin-bottom: 1rem;
+
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+
+}

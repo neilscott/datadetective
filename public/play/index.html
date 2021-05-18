@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-gb" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.className = 'js';</script>
+  <meta name="description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease."/>
+  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+  <link rel="canonical" href="https://datadetective.com/" />
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="We need your help! | Data Detective">
+  <meta property="og:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
+  <meta property="og:url" content="https://datadetective.com/">
+  <meta property="og:site_name" content="Data Detective">
+  <meta property="og:image" content="/social.png">
+  <meta property="og:image:secure_url" content="/social.png">
+  <meta property="og:image:width" content="1270">
+  <meta property="og:image:height" content="440">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="We need your help! | Data Detective">
+  <meta name="twitter:description" content="Game for children to show how to link data securely to help stop the spread of a mystery disease.">
+  <meta name="twitter:image" content="/social.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="/css/style.css?4">
+  <title>We need your help! | Data Detective</title>
+</head>
+<body>
+  <div class="progress ">
+    <div class="progress-bar " role="progressbar"
+  aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+      20 %
+    </div>
+  </div>
+  <header><div class="container"><a class="site-title" href="/"><img class="logo" width="130px" height="50px" src="/img/logo.svg" alt="Data Detective"><span class="sr">Data Detective</span></a></div></header>
+  <article>
+    <div class="container">
+    <div class="two-column-md grid-column-1-md">
+  <div class="img-bg mb1 grid-column-2-md">
+    <div class="rotate relative">
+      <time id="date"></time>
+    <img class="box-shadow mb2 " src="/img/dailynews-sm.jpg" alt="Newspaper showing crisis">
+  </div>
+  </div>
+  <div >
+<h1>The Scenario</h1>
+<p>There has been an outbreak of a new infectious disease in Edinburgh.</p>
+<p>Scientists from the Social &amp; Public Health Sciences Unit have reason to believe that the disease is going to spread to Glasgow, and fast!</p>
+<p>A vaccine has been created, but supplies are low …</p>
+<p>The scientists need to know which Glasgow school is most likely to be hit by the disease first, so they can dispatch the vaccine and prevent the disease spreading.</p>
+<p>You’ll be <span class="no-js-hide">randomly</span> assigned one of two teams: Environment or Employment. Your challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.</p>
+<p><button class="btn no-js-hide" onclick="randomSite();">Join your team →</button><a class="btn no-js-show" href="/environment" onclick="randomSite();">Environment →</a></p>
+<p><a class="btn no-js-show" href="/employment" onclick="randomSite();">Employment →</a></p>
+<script>
+    var sites = [
+        "/environment",
+        "/employment"
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+
+
+    n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate() ;
+document.getElementById("date").innerHTML = d + "." + m + "." + y;
+</script>
+  </div>
+</div>
+
+    
+
+    </div>
+  </article>
+  <footer>
+  </footer>
+</body>
+</html>
