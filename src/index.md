@@ -3,6 +3,7 @@ title: "Are you ready to play?"
 layout: "base.njk"
 progress: 10
 hideprogress: hidden
+team: None
 ---
 
 
@@ -52,9 +53,3 @@ The aim of Data Detective is to show how and why data are shared in research.
 
 </div>
 
-
-<div class="tac">
-
-   <img width="300px" style="margin:3rem auto 0rem" src="/img/SPHSU-logo.png" alt="MRC/CSO Social and Public Health Sciences Unit">
-
- </div>

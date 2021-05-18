@@ -1,20 +1,18 @@
 ---
 title: "Employment Data"
 layout: "base.njk"
+team: "Employment"
 ---
-
 
 
 # Employment Data
 
- <p id="display">Time Left: 0</p><p>
-        <button id="start">Start</button>
+
 
 
 Using the data below (some data has been removed for privacy), enter the Employment Risk Score for each school. You can get this by calculating the number of children living in cities.
 
 At the bottom of the page type in the ID of 'School Zero' (the one with the highest score) and click Check Your Answers.
-
 
 
 
@@ -369,28 +367,3 @@ You will need to assign a data officer – this is the person responsible for en
 <blockquote>
   This is a quote
 </blockquote>
-
-<script type="text/javascript">
-  var start = document.getElementById("start");
-var dis = document.getElementById("display");
-var finishTime;
-var timerLength = 1000;
-var timeoutID;
-dis.innerHTML = "Time Left: " + timerLength;
-
-if(localStorage.getItem('myTime')){
-  Update();
-}
-start.onclick = function () {
-    localStorage.setItem('myTime', ((new Date()).getTime() + timerLength * 1000));
-    if (timeoutID != undefined) window.clearTimeout(timeoutID);
-    Update();
-}
-
-function Update() {
-    finishTime = localStorage.getItem('myTime');
-    var timeLeft = (finishTime - new Date());
-    dis.innerHTML = "Time Left: " + Math.max(timeLeft/1000,0);
-    timeoutID = window.setTimeout(Update, 100);
-}
-</script>

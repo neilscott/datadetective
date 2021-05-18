@@ -73,3 +73,24 @@ th {
     text-align: center;
 }
 
+
+
+.Environment {
+  th {
+  background: var(--light-green);
+}
+  tr:nth-child(even)  {
+  background: #F3F9CF;
+}
+
+}
+
+.Employment {
+  th {
+  background: #B2DCEE;
+}
+  tr:nth-child(even)  {
+  background: #E4F3F9;
+}
+
+}

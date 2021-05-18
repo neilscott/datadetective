@@ -9,7 +9,10 @@ layout: "base.njk"
 
 <div class="grid grid-md-2 two-column-md">
   <div class="mb1 grid-column-2">
+    <figure>
     <img src="/img/employment.svg" alt="">
+    <figcaption><a target="_blank" href="http://www.freepik.com">Designed by Freepik</a></figcaption>
+    </figure>
   </div>
 
   <div class="grid-column-1">
@@ -32,33 +35,3 @@ You&rsquo;re going to need to use the Employment data to work out which school i
 
   </div>
 </div>
-
- <p id="display">Time Left: 0</p><p>
-        <button id="start">Start</button>
-
-
-<script type="text/javascript">
-  var start = document.getElementById("start");
-var dis = document.getElementById("display");
-var finishTime;
-var timerLength = 10;
-var timeoutID;
-dis.innerHTML = "Time Left: " + timerLength;
-
-if(localStorage.getItem('myTime')){
-  Update();
-}
-start.onclick = function () {
-    localStorage.setItem('myTime', ((new Date()).getTime() + timerLength * 1000));
-    if (timeoutID != undefined) window.clearTimeout(timeoutID);
-    Update();
-}
-
-function Update() {
-    finishTime = localStorage.getItem('myTime');
-    var timeLeft = (finishTime - new Date());
-    dis.innerHTML = "Time Left: " + Math.max(timeLeft/1000,0);
-    timeoutID = window.setTimeout(Update, 100);
-}
-</script>
-

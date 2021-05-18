@@ -1,6 +1,7 @@
 ---
 title: "Environment Team"
 layout: "base.njk"
+team: Environment
 ---
 
 

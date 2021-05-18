@@ -130,14 +130,16 @@ body {
 .container {
   max-width: 80rem;
   margin:0 auto;
+  position:relative;
 }
 
-article {
+.article {
   background-color: var(--white);
   min-height: calc(100vh - 6rem);
   position:relative;
   z-index: 1;
   padding: 2rem 1rem 4rem;
+  box-shadow:   0px -11px 8px -10px rgba(0,0,0,0.2), 0 11px 8px -10px rgba(0,0,0,0.2);
 }
 
 
@@ -203,7 +205,16 @@ picture {
 
 
 
+figcaption {
+  font-size: .75rem;
+  text-align: right;
+  a {
+    font-weight: 300;
+    color: var(--black);
+    border:0;
+  }
 
+}
 
 svg:not(:root) {
     overflow: hidden;
@@ -389,4 +400,54 @@ transform: rotate(30deg);
 }
 }
 
+.site-footer {
+  box-shadow:  inset  0px -11px 8px -10px rgba(0,0,0,0.2);
+  padding: 1rem 0 0 ;
 
+
+  ul {
+    width: 100vw;
+    background-color: var(--tomato);
+    margin:0 0 0.25rem;
+
+  }
+
+  li {
+    display: inline;
+    margin: 0 .5rem ;
+
+    a {
+      display: inline-block;
+      font-size: 1rem;
+      text-decoration: none;
+      color: var(--beige);
+      font-weight: normal;
+      border:0;
+    }
+
+  }
+
+
+}
+
+
+.team{
+  border: 1px solid;
+  position:absolute;
+  top: 1.25rem;
+  right: 1rem;
+  padding: .25rem .5rem;
+  background-color:white;
+  border-radius:.25rem;
+}
+
+.None .team {
+  display: none;
+}
+.Employment-team {
+  color: var(--light-blue);
+}
+
+.Environment-team {
+  color: var(--green);
+}

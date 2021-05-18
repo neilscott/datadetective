@@ -2,6 +2,7 @@
 title: "We need your help!"
 layout: "base.njk"
 progress: 20
+team: None
 ---
 <div class="two-column-md grid-column-1-md">
 
