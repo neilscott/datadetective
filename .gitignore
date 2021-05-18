@@ -23,8 +23,6 @@ dist/
 target/
 dist/
 public/
-public
-public/*
 
 # JetBrains IDE
 .idea/
