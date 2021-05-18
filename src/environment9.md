@@ -17,7 +17,6 @@ layout: "base.njk"
 
 You have successfully completed the Data Detective game!
 
-
 Congratulations on working together. School C.
 
 <!-- School X has been identified as the place where the outbreak is most likely to hit next. Resources will be directed etc.
