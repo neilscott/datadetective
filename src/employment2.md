@@ -1,7 +1,7 @@
 ---
 title: "Employment Data"
 layout: "base.njk"
-team: "Employment"
+team: Employment
 ---
 
 
@@ -349,21 +349,3 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
 <input name="zero" type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
 
-
-
-
-Each team has a different dataset, but they have some things in common. Both datasets have columns – the first column contains School ID. There are four schools contained in the datasets. Employment team – can you see your school ID? What is it made up of? (numbers, letters). And Environment team, can you see your school ID? What is it made up of? Next there is a column for pupil names. These have been removed, to make the datasets anonymous. Instead each pupil has been given an id. Environment team, can you see your pupil ID? What is it made up of? (numbers, letters). And Employment team what is your pupil ID? We also don’t need to know dates of birth to understand which school is at greatest risk, so these have been blanked out.
-
-
-
-The next column contains some really important information which can tell us about who might be more likely to catch the disease. For the environment team you have information on where pupils live and in the employment team you have information on the jobs that pupil’s parents do.
-
-
-
-You will need to assign a data officer – this is the person responsible for entering new information into the dataset. And a communication officer– this person will pass on messages to me when you have carried out tasks. Once you decided who will take on these roles, please consult the briefing paper - this will tell you more about your data and what you need to do next.
-
-
-
-<blockquote>
-  This is a quote
-</blockquote>

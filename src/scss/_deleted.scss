@@ -77,7 +77,7 @@ th {
 
 .Environment {
   th {
-  background: #DFEA97;
+  background: var(--light-green);
 }
   tr:nth-child(even)  {
   background: #F3F9CF;

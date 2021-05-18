@@ -1,6 +1,7 @@
 ---
 title: "Employment Team"
 layout: "base.njk"
+team: "Employment"
 ---
 
 
@@ -11,7 +12,7 @@ layout: "base.njk"
   <div class="mb1 grid-column-2">
     <figure>
     <img src="/img/employment.svg" alt="">
-    <figcaption><a target="_blank" href="http://www.freepik.com">Designed by Freepik</a></figcaption>
+    <figcaption><a target="_blank" href="http://www.freepik.com">Image by Freepik</a></figcaption>
     </figure>
   </div>
 

@@ -1,6 +1,7 @@
 ---
 title: "Thank you"
 layout: "base.njk"
+team: Environment
 ---
 
 # Thank you

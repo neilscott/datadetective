@@ -195,6 +195,42 @@ h1, h1 input {
 
 
 
+details {
+  /* Make the <details> look more "clickable" */
+  padding: .6rem 1rem;
+  background: var(--beige);
+  border: 1px solid var(--black);
+  border-radius: 4px;
+
+
+  p {
+     font-size: 1rem;
+  }
+}
+
+summary {
+  /* Makes the <summary> look more like a "clickable" link with the pointer cursor */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details[open] {
+  /* Adjust the <details> padding while open */
+  padding-bottom: .75rem;
+}
+
+details[open] summary {
+  /* Adjust the <details> padding while open */
+  margin-bottom: 6px;
+}
+
+details[open]>*:last-child {
+  /* Resets the bottom margin of the last element in the <details> while <details> is opened. This prevents double margins/paddings. */
+  margin-bottom: 0;
+}
+
+
+
 
 img,
 picture {
@@ -204,10 +240,16 @@ picture {
 }
 
 
-
+figure {
+  position:relative;
+}
 figcaption {
   font-size: .75rem;
-  text-align: right;
+  //text-align: right;
+  transform: rotate(90deg);
+  position:absolute;
+top: 4rem;
+right: -4rem;
   a {
     font-weight: 300;
     color: var(--black);
