@@ -33,7 +33,7 @@ The game should take no more than 10 minutes.
 
 ## Who Made This?
 
-This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abbr title="Chief Science Officer">CSO</abbr> Social and Public Health Sciences Unit.
+This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abbr title="Chief Scientist Office">CSO</abbr> Social and Public Health Sciences Unit.
 
 <a target="_blank" href="https://www.gla.ac.uk/researchinstitutes/healthwellbeing/research/mrccsosocialandpublichealthsciencesunit/">Read more about us</a>
 
