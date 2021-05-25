@@ -1,35 +1,316 @@
 ---
-title: "New Information!"
+title: "Data Sharing Set"
 layout: "base.njk"
+team: "Environment"
 ---
 
-# Congratulations <form  id="myForm" class="dib"><input name="fullName" type="text" class="readonly" readonly=""></form>
+# Calculate Final Risk Score
 
-
-<div class="grid grid-md-2 two-column-md">
-  <div class="mb1 grid-column-2">
-  <script src="/js/lottie-player.js"></script>
-
-<lottie-player autoplay loop mode="normal" src="/js/53882-distance-education.json" style="width: 50vh"> </lottie-player>
-  </div>
-
-  <div class="grid-column-1">
-
-You have successfully completed the Data Detective game!
-
-Congratulations on working together. School C.
-
-<!-- School X has been identified as the place where the outbreak is most likely to hit next. Resources will be directed etc.
-
-Recap of main issues – why data sharing is important, how data are shared. We could include a video of researcher(s) describing how they use data in their job, equating the stages of the game to how it works in real life…
-
-Evaluation  - a few tick box questions, plus free text box for comments
-
-Option to now play the game again as the other team. NB the final outcome will always be the same, but this would reiterate how the other team’s data used different IDs, and initially came up with the wrong answer when using just their own data.
- -->
+Now that we have converted the code from the employment team we just need to add up the environment and employment risk scores to get a final risk score.
 
 
 
+
+<div class="table-overflow mb2 pb2">
+<form  method="get" action="/environment10">
+ <table >
+          <thead>
+            <tr>
+              <th>
+                School ID
+              </th>
+              <th>
+                Pupil name
+              </th>
+              <th>
+                Pupil ID
+              </th>
+              <th>
+                Date of Birth
+              </th>
+              <th>
+               Employment Risk
+              </th>
+              <th>
+               Environment Risk
+              </th>
+              <th>
+              Total Risk Score
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr >
+              <td rowspan="5">
+                A
+              </td>
+              <td>
+              ████ ████
+              </td>
+              <td>
+                1
+              </td>
+              <td >
+                ██ / ██ / ████
+              </td>
+              <td rowspan="5">
+                0
+              </td>
+              <td rowspan="5">
+                4
+              </td>
+              <td rowspan="5">
+                 <input name="A" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+              </td>
+            </tr>
+            <tr>
+           <td>
+              ████ ████
+              </td>
+              <td>
+                2
+              </td>
+               <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+             <td>
+              ████ ████
+              </td>
+              <td>
+                3
+              </td>
+                 <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                          <td>
+              ████ ████
+              </td>
+              <td>
+                4
+              </td>
+             <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr class="bb">
+              <td>████ ████</td>
+              <td>5</td>
+              <td>██ / ██ / ████</td>
+            </tr>
+            <tr >
+              <td rowspan="5"> B</td>
+              <td>████ ████
+              </td>
+              <td>
+                6
+              </td>
+              <td >██ / ██ / ████ </td>
+               <td rowspan="5">
+                4
+              </td>
+              <td rowspan="5">
+                1
+              </td>
+              <td rowspan="5">
+                   <input name="B" type="" value="" pattern="5" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                7
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                8
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                9
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr class="bb">
+                <td>
+              ████ ████
+              </td>
+              <td>
+                10
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr >
+              <td rowspan="5">
+                C
+              </td>
+              <td>
+              ████ ████
+              </td>
+              <td>
+                11
+              </td>
+              <td >
+                ██ / ██ / ████
+              </td>
+          <td rowspan="5">
+                3
+              </td>
+              <td rowspan="5">
+                3
+              </td>
+              <td rowspan="5">
+                 <input name="C" type="" value="" pattern="6" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                12
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                13
+              </td>
+                          <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                14
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr class="bb">
+                <td>
+              ████ ████
+              </td>
+              <td>
+                15
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="5">
+                D
+              </td>
+              <td >
+              ████ ████
+              </td>
+              <td>
+                16
+              </td>
+              <td >
+                ██ / ██ / ████
+              </td>
+          <td rowspan="5">
+                1
+              </td>
+              <td rowspan="5">
+                1
+              </td>
+              <td rowspan="5">
+     <input name="D" type="" value="" pattern="2" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                17
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                18
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ████
+              </td>
+              <td>
+                19
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+            <tr class="bb">
+                <td>
+              ████ ████
+              </td>
+              <td>
+                20
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+## Which is School Zero?
+
+<input name="zero" type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+<button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
+
+
+
+ <form action="/environment6" id="myForm" >
+<input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
+<button class="btn" type="submit">Submit</button>
+</form>
 
 <script type="text/javascript">
     window.onload = function () {
@@ -44,16 +325,9 @@ Option to now play the game again as the other team. NB the final outcome will a
         if (cachedVal != null) {
             el.value = cachedVal;
         }
+
+
     }
 }
 
-
-function clearCache() {
-    localStorage.clear()
-}
-
   </script>
-
-<!--<a class="btn" href="/environment5">Work with the other team</a>-->
-
-</div>

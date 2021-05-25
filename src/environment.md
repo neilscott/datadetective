@@ -9,11 +9,11 @@ team: Environment
 
 
 <div class="grid grid-md-2 two-column-md">
-  <div class="mb1 grid-column-2">
+  <div class="mb1 grid-column-2-md">
     <img src="/img/environment.svg" alt="">
   </div>
 
-  <div class="grid-column-1">
+  <div class="grid-column-1-md">
 
 You hold neighbourhood data on Glasgow, which tells you which pupils live in cities.
 

@@ -8,15 +8,15 @@ team: "Employment"
 # Employment Team
 
 
-<div class="grid grid-md-2 two-column-md">
-  <div class="mb1 grid-column-2">
+<div class="grid grid-md-2 dense grid-column-gap-2">
+  <div class="mb1 grid-column-2-md">
     <figure>
     <img src="/img/employment.svg" alt="">
     <figcaption><a target="_blank" href="http://www.freepik.com">Image by Freepik</a></figcaption>
     </figure>
   </div>
 
-  <div class="grid-column-1">
+  <div class="grid-column-1-md">
 
 
 You hold Employment data on Glasgow. This is really useful data to have, because the jobs that people have can affect your health.

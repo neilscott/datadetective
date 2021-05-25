@@ -1,3 +1,72 @@
+form{
+    margin-bottom:var(--unit);
+    font-family:var(--brand-font)
+}
+form p{
+    font-family:var(--brand-font)
+}
+fieldset{
+    min-width:0;
+    border:0;
+    padding:0;
+}
+fieldset ol,fieldset ul{
+    list-style:none;
+    margin:0
+}
+
+.clearinput, .readonly,  .readonly:active,  .readonly:focus, input[readonly],textarea[readonly]{
+  border:0;
+  display: inline-block;
+ background-color: white;
+ outline: none;
+ cursor: pointer;
+}
+label{
+    cursor:pointer;
+    font-weight:500
+}
+button,input,label,optgroup,option,select,summary,textarea{
+
+    font:inherit;
+
+    text-transform:none;
+    touch-action:manipulation
+}
+button,input,label,select,textarea{
+    display:block;
+    overflow:visible
+}
+input,select,textarea{
+    background-color:var(--color-bg-omega);
+    border:1px solid var(--color-border-alpha);
+    color:var(--color-text-alpha);
+    margin:0 0 var(--unit) 0;
+    padding:0.5rem 0.5rem
+}
+textarea{
+    max-height:8rem;
+    overflow:auto;
+    resize:vertical;
+    width:100%
+}
+[type=checkbox],[type=radio]{
+    display:inline-block;
+    padding:0;
+    margin:0
+}
+input[type=checkbox]+label,input[type=radio]+label{
+    display:inline-block;
+    font-weight:normal;
+    position:relative;
+    top:1px
+}
+input[type=radio]:checked+label{
+    font-weight:normal
+}
+
+
+
 
 .test {
   background-image: url(../img/bug.svg);
@@ -428,6 +497,7 @@ input {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
+
 }
 
 img {

@@ -1,318 +1,22 @@
 ---
 title: "Data Decoding"
 layout: "base.njk"
+team: "Employment"
+pageID: "employment-page-8"
 ---
 
-# Calculate Total Risk Score
+# Data Decoding
 
-The Environment team have sent over their coded results. Use the code wheel to convert their Sharing ID into a Risk Score
+The Environment team have sent over their coded results.
 
+The linkage key is <strong>A 2</strong>.
 
 <div class="show-md">
 
-Your linkage key is <strong>A 4</strong>. Line up the code wheel to that position and convert the sharing ID into Risk Score.
+Line up the code wheel to that position and convert their Sharing ID into a School ID.
+
 
 </div>
-
-
-
-
-
-<div class="table-overflow">
-<form  method="get" action="/employment3">
- <table>
-          <thead>
-            <tr>
-              <th>
-                School ID
-              </th>
-              <th>
-                Pupil name
-              </th>
-              <th>
-                Pupil ID
-              </th>
-              <th>
-                Date of Birth
-              </th>
-              <th>
-               Employment Risk
-              </th>
-              <th>
-               Environment Risk
-              </th>
-              <th>
-              Total Risk Score
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr >
-              <td rowspan="5">
-                A
-              </td>
-              <td>
-              ████ ████
-              </td>
-              <td>
-                1
-              </td>
-              <td >
-                ██ / ██ / ████
-              </td>
-              <td rowspan="5">
-                0
-              </td>
-              <td rowspan="5">
-                4
-              </td>
-              <td rowspan="5">
-                 <input name="name" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
-              </td>
-            </tr>
-            <tr>
-           <td>
-              ████ ████
-              </td>
-              <td>
-                2
-              </td>
-               <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-             <td>
-              ████ ████
-              </td>
-              <td>
-                3
-              </td>
-                 <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                          <td>
-              ████ ████
-              </td>
-              <td>
-                4
-              </td>
-             <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr class="bb">
-              <td>████ ████</td>
-              <td>5</td>
-              <td>██ / ██ / ████</td>
-            </tr>
-            <tr >
-              <td rowspan="5"> B</td>
-              <td>████ ████
-              </td>
-              <td>
-                6
-              </td>
-              <td >██ / ██ / ████ </td>
-               <td rowspan="5">
-                4
-              </td>
-              <td rowspan="5">
-                1
-              </td>
-              <td rowspan="5">
-                   <input name="name" type="" value="" pattern="5" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                7
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                8
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                9
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr class="bb">
-                <td>
-              ████ ████
-              </td>
-              <td>
-                10
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr >
-              <td rowspan="5">
-                C
-              </td>
-              <td>
-              ████ ████
-              </td>
-              <td>
-                11
-              </td>
-              <td >
-                ██ / ██ / ████
-              </td>
-          <td rowspan="5">
-                3
-              </td>
-              <td rowspan="5">
-                3
-              </td>
-              <td rowspan="5">
-                 <input name="C" type="" value="" pattern="6" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                12
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                13
-              </td>
-                          <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                14
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr class="bb">
-                <td>
-              ████ ████
-              </td>
-              <td>
-                15
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-              <td rowspan="5">
-                D
-              </td>
-              <td >
-              ████ ████
-              </td>
-              <td>
-                16
-              </td>
-              <td >
-                ██ / ██ / ████
-              </td>
-          <td rowspan="5">
-                1
-              </td>
-              <td rowspan="5">
-                1
-              </td>
-              <td rowspan="5">
-     <input name="D" type="" value="" pattern="2" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                17
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                18
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
-              <td>
-                19
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-            <tr class="bb">
-                <td>
-              ████ ████
-              </td>
-              <td>
-                20
-              </td>
-                         <td >
-                ██ / ██ / ████
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-## Which is School Zero?
-
-<input name="zero" type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
-<button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
-
-
 
 
 
@@ -330,7 +34,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
-<div class="grid grid-md-2 grid-column-gap-2">
+<div class="grid grid-md-2 pb2 grid-column-gap-2">
 
 
 
@@ -340,40 +44,33 @@ When communication officers return with signed agreement, hand them the Sharing 
           <thead>
             <tr>
             <th>
+               Sharing ID
+              </th>
+              <th>
                 School
-              </th>
-              <th>
-                Sharing ID
-              </th>
-              <th>
-               Risk Score
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>A</td>
-              <td>0</td>
+              <td>W</td>
               <td>
-     <input type="" value="" pattern="W" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>B</td>
-              <td>4</td>
+              <td>X</td>
               <td>
-     <input type="" value="" pattern="Y" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input type="" value="" pattern="A" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>C</td>
-              <td>1</td>
+              <td>Y</td>
               <td>
-     <input  type="" value="" pattern="Y" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input  type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>D</td>
-              <td>4</td>
+              <td>Z</td>
               <td>
-     <input  type="" value="" pattern="X" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input  type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
           </tbody>
         </table>
@@ -411,11 +108,9 @@ When communication officers return with signed agreement, hand them the Sharing 
 <div>
 </div>
 
- <script type="text/javascript"
-    src="http://code.jquery.com/jquery-3.5.1.js"
 
-  ></script>
 
+<script src="/js/jquery-3.6.0.slim.min.js"></script>
 
 
 <script type="text/javascript">//<![CDATA[

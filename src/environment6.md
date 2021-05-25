@@ -1,6 +1,7 @@
 ---
 title: "Data Sharing Set"
 layout: "base.njk"
+team: "Environment"
 ---
 
 # Data Sharing
@@ -29,7 +30,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
-<form  method="get" action="/environment7">
+<form id="myForm" method="get" action="/environment7">
  <table>
           <thead>
             <tr>
@@ -49,28 +50,33 @@ When communication officers return with signed agreement, hand them the Sharing 
               <td>A</td>
               <td>3</td>
               <td>
-     <input type="" value="" pattern="X" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="A" type="" value="" pattern="X" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>B</td>
               <td>1</td>
               <td>
-     <input type="" value="" pattern="Y" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="B" type="" value="" pattern="Y" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>C</td>
               <td>1</td>
               <td>
-     <input  type="" value="" pattern="Z" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="C" type="" value="" pattern="Z" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>D</td>
               <td>4</td>
               <td>
-     <input  type="" value="" pattern="W" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="D" type="" value="" pattern="W" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
           </tbody>
         </table>
+
+
+<input name="fullName" type="text" >
+
+
 
 <input  class="btn"  type="submit"  value="Check Your Answers" name="Test">
 </form>
@@ -177,6 +183,9 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 //]]></script>
 
+
+
+
 <script type="text/javascript">
     window.onload = function () {
     let form = document.getElementById("myForm");
@@ -186,7 +195,7 @@ When communication officers return with signed agreement, hand them the Sharing 
         if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
             continue
         }
-        let cachedVal = localStorage.getItem(el.attributes["name"].value)
+        let cachedVal = localStorage.getItem(el.attributes["fullName"].value)
         if (cachedVal != null) {
             el.value = cachedVal;
         }
@@ -196,6 +205,8 @@ When communication officers return with signed agreement, hand them the Sharing 
 }
 
   </script>
+
+
 
 
 
