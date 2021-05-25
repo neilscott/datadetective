@@ -1,6 +1,7 @@
 ---
 title: "Data Sharing"
 layout: "base.njk"
+team: "Environment"
 ---
 
 # Data Safety
@@ -12,27 +13,33 @@ You will need to read and sign this data sharing agreement.
 
 
 <article class="document times">
+<h2> Data sharing agreement</h2>
 
-<div class="tac">
+<p>I agree to share information with all official members of the Employment team.</p>
 
-## Data sharing agreement
+<p>I agree that these data will only be used for the purposes of identifying which school is going to be hit by the virus.</p>
 
-</div>
+<p>I agree that the only information that I will share is the Sharing ID and the Health risk score.
 
-I agree to share information with all official members of the Environment team.
+  <!--I agree that the only information that I will share is the Sharing ID and whether a school is at risk of Health / Environmental grounds.  -->
+</p>
 
-I agree that these data will only be used for the purposes of identifying which school is going to be hit by the disease.
+<p>I agree that the data will be safely stored and that I shall make no attempt to identify individuals. The Sharing ID and the Environment data will be destroyed after use.</p>
 
-I agree that the only information that I will share is the Sharing ID and the Health risk score.
 
-I agree that the data will be safely stored and that I shall make no attempt to identify individuals. The Sharing ID and the Environemnt data will be destroyed after use.
+
+
+
+
+
+
 
 
 Signed:
 
- <form action="/employment6" id="myForm" >
+ <form action="/environment/data-sharing/" id="myForm" >
 <input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
-<button class="btn" type="submit">I Agree</button>
+<button class="btn" type="submit">Submit</button>
 </form>
 
 </article>

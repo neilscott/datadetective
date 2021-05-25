@@ -9,6 +9,7 @@ team: Environment
 We will audit your results and get in touch shortly, if we need any other information.
 
 
+<script src="/js/lottie-player.js"></script>
 
 <lottie-player autoplay mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player>
 <script>
@@ -24,7 +25,7 @@ We will audit your results and get in touch shortly, if we need any other inform
             display.textContent = seconds;
 
             if (--timer < 0) {
-                window.location = "/environment8";
+                window.location = "/environment/latest-information/";
                 clearInterval(end);
             }
         }, 1000);

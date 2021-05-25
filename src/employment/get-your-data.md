@@ -14,7 +14,7 @@ At the bottom of the page type in the ID of 'School Zero' (the school with the h
 
 
 <div class="table-overflow mb1 pb1">
-<form  method="get" action="/employment3">
+<form  method="get" action="/employment/check-data/">
  <table>
           <thead>
             <tr>

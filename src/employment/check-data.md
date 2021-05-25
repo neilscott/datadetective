@@ -11,8 +11,7 @@ We will audit your results and get in touch shortly, if we need any other inform
 
 <script src="/js/lottie-player.js"></script>
 
-<lottie-player autoplay mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player>
-
+<lottie-player autoplay loop mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player>
 
 <script>
     function startTimer(duration, display) {
@@ -27,7 +26,7 @@ We will audit your results and get in touch shortly, if we need any other inform
             display.textContent = seconds;
 
             if (--timer < 0) {
-                window.location = "/employment8";
+                window.location = "/employment/latest-information/";
                 clearInterval(end);
             }
         }, 1000);
@@ -35,12 +34,11 @@ We will audit your results and get in touch shortly, if we need any other inform
 
     window.onload = function () {
         var fiveMinutes = 5,
-            display = document.querySelector('#time');
+        display = document.querySelector('#time');
         startTimer(fiveMinutes, display);
     };
 </script>
 
-<p>Please hold on for <span id="time">5</span> seconds.</p>
-<form id="form1" runat="server">
 
-</form>
+<p>Please hold on for <span id="time">5</span> seconds.</p>
+

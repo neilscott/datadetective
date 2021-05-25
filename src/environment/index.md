@@ -26,7 +26,7 @@ The scientists believe that people who live in cities are at highest risk becaus
 Schools that have lots of pupils who live in cities will be most at risk of getting the disease first. So you’re going to need to use these data to work out which school is at highest risk.
 
 
-<a class="btn" href="/environment2">Get your data &rarr;</a>
+<a class="btn" href="/environment/get-your-data">Get your data &rarr;</a>
 
   </div>
 </div>

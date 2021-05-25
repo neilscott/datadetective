@@ -1,17 +1,22 @@
 ---
 title: "Data Decoding"
 layout: "base.njk"
-team: "Environment"
-pageID: environment-page-7;
+team: "Employment"
+pageID: "employment-page-8"
 ---
 
 # Data Decoding
 
-Thank you for encoding your data. But that is only half the job. We now need to decode the data from the employment team.
+The Environment team have sent over their coded results.
 
-To do this you need to convert the Sharing ID to the correct School ID.
+The linkage key is <strong>A 2</strong>.
 
-The linkage key is <strong>C 3</strong>. Line up the middle code wheel to that position and convert the Sharing ID into a School (A,B,C,or D).
+<div class="show-md">
+
+Line up the code wheel to that position and convert their Sharing ID into a School ID.
+
+
+</div>
 
 
 
@@ -28,19 +33,21 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
-<div class="grid grid-md-2 grid-column-gap-2">
+
+<div class="grid grid-md-2 pb2 grid-column-gap-2">
 
 
 
-<form  method="get" action="/environment9">
+
+<form  method="get" action="/employment/total-risk/">
  <table>
           <thead>
             <tr>
             <th>
-                Sharing ID
+               Sharing ID
               </th>
               <th>
-             School
+                School
               </th>
             </tr>
           </thead>
@@ -48,31 +55,28 @@ When communication officers return with signed agreement, hand them the Sharing 
             <tr>
               <td>W</td>
               <td>
-     <input type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>X</td>
               <td>
-     <input type="" value="" pattern="A" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>Y</td>
               <td>
-     <input  type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input  type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
               <td>Z</td>
               <td>
-     <input  type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input  type="" value="" pattern="A" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
           </tbody>
         </table>
 
 <input  class="btn"  type="submit"  value="Check Your Answers" name="Test">
 </form>
-
-
-
 
 
 
@@ -85,7 +89,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
- <div class="circle  draggable_wp" id="target">
+ <div class="circle draggable_wp" id="target"  style="transform: rotate(30deg);">
   <li><div class="text">W</div></li>
     <li><div class="text">X</div></li>
     <li><div class="text">Y</div></li>
@@ -94,7 +98,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 <div>
 
 
- <div class="circle-inner" style="transform: rotate(90deg);" id="target" >
+ <div class="circle-inner" style="transform: rotate(180deg);" id="target" >
   <li><div class="text">1</div></li>
     <li><div class="text">2</div></li>
     <li><div class="text">3</div></li>
@@ -104,8 +108,9 @@ When communication officers return with signed agreement, hand them the Sharing 
 <div>
 </div>
 
- <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
 
+
+<script src="/js/jquery-3.6.0.slim.min.js"></script>
 
 
 <script type="text/javascript">//<![CDATA[
@@ -178,12 +183,6 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 //]]></script>
 
-
- <form action="/environment6" id="myForm" >
-<input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
-<button class="btn" type="submit">Submit</button>
-</form>
-
 <script type="text/javascript">
     window.onload = function () {
     let form = document.getElementById("myForm");
@@ -202,8 +201,8 @@ When communication officers return with signed agreement, hand them the Sharing 
     }
 }
 
-
-
-
   </script>
 </div>
+
+
+

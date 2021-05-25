@@ -6,7 +6,7 @@ team: "Employment"
 
 # Data Sharing
 
-In order to securely share your data with the other team, you'll need to convert the School ID into a Sharing ID.
+<span id="result"></span>, in order to securely share your data with the other team, you'll need to convert the School ID into a Sharing ID.
 
 The linkage key is <strong>A 4</strong>.
 
@@ -20,6 +20,7 @@ Line up the code wheel to that position and convert School IDs (A,B,C,D) into sh
 Line up the code wheel to that position and convert School IDs (A,B,C,D) into sharing IDs (W,X,Y,Z).
 
 </div>
+
 
 
 
@@ -40,7 +41,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 <div class="table-overflow pb2 mb2">
-<form  method="get" action="/employment7">
+<form  method="get" action="/employment/check-data-sharing/">
  <table>
           <thead>
             <tr>
@@ -115,3 +116,15 @@ When communication officers return with signed agreement, hand them the Sharing 
 </div>
 <script src="/js/jquery-3.6.0.slim.min.js"></script>
 <script src="/js/codewheel.js"></script>
+
+<script>
+  // Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  localStorage.setItem("lastname", "Smith");
+  // Retrieve
+  document.getElementById("result").innerHTML = localStorage.getItem("fullName");
+} else {
+  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>

@@ -4,14 +4,15 @@ layout: "base.njk"
 team: "Employment"
 ---
 
-# Thank you
+# Checking Shared Data
 
-We will audit your results and get in touch shortly, if we need any other information.
+We are auditing your results and get in touch shortly, if we need any other information.
 
 
 <script src="/js/lottie-player.js"></script>
 
-<lottie-player autoplay loop mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player>
+<lottie-player autoplay mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player>
+
 
 <script>
     function startTimer(duration, display) {
@@ -26,7 +27,7 @@ We will audit your results and get in touch shortly, if we need any other inform
             display.textContent = seconds;
 
             if (--timer < 0) {
-                window.location = "/employment4";
+                window.location = "/employment/data-decoding/";
                 clearInterval(end);
             }
         }, 1000);
@@ -34,11 +35,24 @@ We will audit your results and get in touch shortly, if we need any other inform
 
     window.onload = function () {
         var fiveMinutes = 5,
-        display = document.querySelector('#time');
+            display = document.querySelector('#time');
         startTimer(fiveMinutes, display);
     };
 </script>
 
-
 <p>Please hold on for <span id="time">5</span> seconds.</p>
+<form id="form1" runat="server">
 
+</form>
+
+<script>
+  // Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  localStorage.setItem("lastname", "Smith");
+  // Retrieve
+  document.getElementById("result").innerHTML = localStorage.getItem("fullName");
+} else {
+  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>

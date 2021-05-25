@@ -1,23 +1,19 @@
 ---
-title: "Environment Data"
+title: "Data Sharing Set"
 layout: "base.njk"
-team: Environment
+team: "Environment"
 ---
 
+# Calculate Final Risk Score
 
-# Environment Data
-
-
-Using the data below (some data has been removed for privacy), enter the Environmental Risk Score for each school. You can get this by calculating the number of children living in cities.
-
-At the bottom of the page type in the ID of 'School Zero' (the one with the highest score) and click Check Your Answers.
+Now that we have converted the code from the employment team we just need to add up the environment and employment risk scores to get a final risk score.
 
 
 
 
-<div class="table-overflow mb1">
-<form  method="get" action="/environment3">
- <table>
+<div class="table-overflow mb2 pb2">
+<form  method="get" action="/congratulations">
+ <table >
           <thead>
             <tr>
               <th>
@@ -33,10 +29,13 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
                 Date of Birth
               </th>
               <th>
-               Area of residence
+               Employment Risk
               </th>
               <th>
-              Risk Score
+               Environment Risk
+              </th>
+              <th>
+              Total Risk Score
               </th>
             </tr>
           </thead>
@@ -46,146 +45,122 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
                 A
               </td>
               <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                a
+                1
               </td>
               <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                City
+              <td rowspan="5">
+                0
               </td>
               <td rowspan="5">
-                 <input name="name" type="" value="" pattern="3" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                4
+              </td>
+              <td rowspan="5">
+                 <input name="A" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
               </td>
             </tr>
             <tr>
            <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                b
+                2
               </td>
                <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                Village
-              </td>
             </tr>
             <tr>
              <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                c
+                3
               </td>
                  <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                City
-              </td>
             </tr>
             <tr>
                           <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                d
+                4
               </td>
              <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                Town
-              </td>
             </tr>
             <tr class="bb">
-              <td>████ ██████
-                            </td>
-              <td>
-                e
-              </td>           <td >
-                ██ / ██ / ████
-              </td>
-              <td>
-                City
-              </td>
+              <td>████ ████</td>
+              <td>5</td>
+              <td>██ / ██ / ████</td>
             </tr>
             <tr >
-              <td rowspan="5">
-                B
-              </td>
-              <td>████ ██████
+              <td rowspan="5"> B</td>
+              <td>████ ████
               </td>
               <td>
-                f
+                6
               </td>
               <td >██ / ██ / ████ </td>
-              <td>
-                Village
+               <td rowspan="5">
+                4
               </td>
               <td rowspan="5">
-                   <input name="name" type="" value="" pattern="1" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                1
+              </td>
+              <td rowspan="5">
+                   <input name="B" type="" value="" pattern="5" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                g
+                7
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                Village
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                h
+                8
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                Town
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                i
+                9
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                Village
               </td>
             </tr>
             <tr class="bb">
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                j
+                10
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                City
               </td>
             </tr>
             <tr >
@@ -193,75 +168,66 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
                 C
               </td>
               <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                k
+                11
               </td>
               <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                Town
+          <td rowspan="5">
+                3
               </td>
               <td rowspan="5">
-                 <input name="C" type="" value="" pattern="1" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                3
+              </td>
+              <td rowspan="5">
+                 <input name="C" type="" value="" pattern="6" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                l
+                12
               </td>
                          <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                Village
-              </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                m
+                13
               </td>
                           <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                City
-              </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                n
+                14
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                Town
               </td>
             </tr>
             <tr class="bb">
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                o
+                15
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                Town
               </td>
             </tr>
             <tr>
@@ -269,74 +235,65 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
                 D
               </td>
               <td >
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                p
+                16
               </td>
               <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                City
+          <td rowspan="5">
+                1
               </td>
               <td rowspan="5">
-     <input name="D" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                1
+              </td>
+              <td rowspan="5">
+     <input name="D" type="" value="" pattern="2" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                q
+                17
               </td>
                          <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                City
-              </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                r
+                18
               </td>
                          <td >
                 ██ / ██ / ████
               </td>
-              <td>
-                City
-              </td>
             </tr>
             <tr>
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                s
+                19
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                City
               </td>
             </tr>
             <tr class="bb">
                 <td>
-              ████ ██████
+              ████ ████
               </td>
               <td>
-                t
+                20
               </td>
                          <td >
                 ██ / ██ / ████
-              </td>
-              <td>
-                Village
               </td>
             </tr>
           </tbody>
@@ -345,5 +302,32 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
 
 ## Which is School Zero?
 
-<input name="zero" type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+<input name="zero" type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
+
+
+
+ <form action="/environment6" id="myForm" >
+<input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
+<button class="btn" type="submit">Submit</button>
+</form>
+
+<script type="text/javascript">
+    window.onload = function () {
+    let form = document.getElementById("myForm");
+    let inputs = form.children;
+    for (let i = 0; i < inputs.length; i++) {
+        let el = inputs[i];
+        if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
+            continue
+        }
+        let cachedVal = localStorage.getItem(el.attributes["name"].value)
+        if (cachedVal != null) {
+            el.value = cachedVal;
+        }
+
+
+    }
+}
+
+  </script>

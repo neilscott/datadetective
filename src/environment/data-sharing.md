@@ -1,22 +1,14 @@
 ---
-title: "Data Decoding"
+title: "Data Sharing Set"
 layout: "base.njk"
-team: "Employment"
-pageID: "employment-page-8"
+team: "Environment"
 ---
 
-# Data Decoding
+# Data Sharing
 
-The Environment team have sent over their coded results.
+In order to securely share your data with the other team..
 
-The linkage key is <strong>A 2</strong>.
-
-<div class="show-md">
-
-Line up the code wheel to that position and convert their Sharing ID into a School ID.
-
-
-</div>
+Your linkage key is <strong>A 4</strong>. Line up the code wheel to that position and convert the School ID into a sharing ID (W,X,Y or Z).
 
 
 
@@ -33,84 +25,92 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
-
-<div class="grid grid-md-2 pb2 grid-column-gap-2">
-
+<div class="grid grid-md-2 grid-column-gap-2">
 
 
 
-<form  method="get" action="/employment7">
+
+<form id="myForm" method="get" action="/environment/check-data-sharing/">
  <table>
           <thead>
             <tr>
             <th>
-               Sharing ID
+                School
               </th>
               <th>
-                School
+                Risk Score
+              </th>
+              <th>
+               Sharing ID
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>W</td>
+              <td>A</td>
+              <td>3</td>
               <td>
-     <input type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="A" type="" value="" pattern="X" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>X</td>
+              <td>B</td>
+              <td>1</td>
               <td>
-     <input type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="B" type="" value="" pattern="Y" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>Y</td>
+              <td>C</td>
+              <td>1</td>
               <td>
-     <input  type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="C" type="" value="" pattern="Z" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>Z</td>
+              <td>D</td>
+              <td>4</td>
               <td>
-     <input  type="" value="" pattern="A" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
+     <input name="D" type="" value="" pattern="W" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
           </tbody>
         </table>
+
+
+<input name="fullName" type="text" >
+
+
 
 <input  class="btn"  type="submit"  value="Check Your Answers" name="Test">
 </form>
 
 
-
 <div>
- <ul class="circle-outer "  style="transform: rotate(315deg);" >
+<ul class="circle-outer " style="transform: rotate(315deg);">
   <li><div class="text">A</div></li>
     <li><div class="text">B</div></li>
     <li><div class="text">C</div></li>
     <li><div class="text">D</div></li>
-
-
-
- <div class="circle draggable_wp" id="target"  style="transform: rotate(30deg);">
+ <ul class="circle draggable_wp" id="target" style="transform: rotate(-37.0904deg);">
   <li><div class="text">W</div></li>
     <li><div class="text">X</div></li>
     <li><div class="text">Y</div></li>
     <li><div class="text">Z</div></li>
-
-<div>
-
-
- <div class="circle-inner" style="transform: rotate(180deg);" id="target" >
+ <ul class="circle-inner" style="transform: rotate(180deg);" id="target">
   <li><div class="text">1</div></li>
     <li><div class="text">2</div></li>
     <li><div class="text">3</div></li>
     <li><div class="text">4</div></li>
-
-<div>
-<div>
+</ul>
+</ul>
+</ul>
 </div>
 
 
 
-<script src="/js/jquery-3.6.0.slim.min.js"></script>
+</div>
+
+
+
+ <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+
 
 
 <script type="text/javascript">//<![CDATA[
@@ -183,6 +183,9 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 //]]></script>
 
+
+
+
 <script type="text/javascript">
     window.onload = function () {
     let form = document.getElementById("myForm");
@@ -192,7 +195,7 @@ When communication officers return with signed agreement, hand them the Sharing 
         if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
             continue
         }
-        let cachedVal = localStorage.getItem(el.attributes["name"].value)
+        let cachedVal = localStorage.getItem(el.attributes["fullName"].value)
         if (cachedVal != null) {
             el.value = cachedVal;
         }
@@ -202,7 +205,9 @@ When communication officers return with signed agreement, hand them the Sharing 
 }
 
   </script>
-</div>
+
+
+
 
 
 

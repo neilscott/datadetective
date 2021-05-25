@@ -1,19 +1,23 @@
 ---
-title: "Data Sharing Set"
+title: "Environment Data"
 layout: "base.njk"
-team: "Environment"
+team: Environment
 ---
 
-# Calculate Final Risk Score
 
-Now that we have converted the code from the employment team we just need to add up the environment and employment risk scores to get a final risk score.
-
+# Environment Data
 
 
+Using the data below (some data has been removed for privacy), enter the Environmental Risk Score for each school. You can get this by calculating the number of children living in cities.
 
-<div class="table-overflow mb2 pb2">
-<form  method="get" action="/environment10">
- <table >
+At the bottom of the page type in the ID of 'School Zero' (the one with the highest score) and click Check Your Answers.
+
+
+
+
+<div class="table-overflow mb1">
+<form  method="get" action="/environment/check-data">
+ <table>
           <thead>
             <tr>
               <th>
@@ -29,13 +33,10 @@ Now that we have converted the code from the employment team we just need to add
                 Date of Birth
               </th>
               <th>
-               Employment Risk
+               Area of residence
               </th>
               <th>
-               Environment Risk
-              </th>
-              <th>
-              Total Risk Score
+              Risk Score
               </th>
             </tr>
           </thead>
@@ -45,122 +46,146 @@ Now that we have converted the code from the employment team we just need to add
                 A
               </td>
               <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                1
+                a
               </td>
               <td >
                 ██ / ██ / ████
               </td>
-              <td rowspan="5">
-                0
+              <td>
+                City
               </td>
               <td rowspan="5">
-                4
-              </td>
-              <td rowspan="5">
-                 <input name="A" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                 <input name="name" type="" value="" pattern="3" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
               </td>
             </tr>
             <tr>
            <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                2
+                b
               </td>
                <td >
                 ██ / ██ / ████
               </td>
+              <td>
+                Village
+              </td>
             </tr>
             <tr>
              <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                3
+                c
               </td>
                  <td >
                 ██ / ██ / ████
               </td>
+              <td>
+                City
+              </td>
             </tr>
             <tr>
                           <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                4
+                d
               </td>
              <td >
                 ██ / ██ / ████
               </td>
+              <td>
+                Town
+              </td>
             </tr>
             <tr class="bb">
-              <td>████ ████</td>
-              <td>5</td>
-              <td>██ / ██ / ████</td>
+              <td>████ ██████
+                            </td>
+              <td>
+                e
+              </td>           <td >
+                ██ / ██ / ████
+              </td>
+              <td>
+                City
+              </td>
             </tr>
             <tr >
-              <td rowspan="5"> B</td>
-              <td>████ ████
+              <td rowspan="5">
+                B
+              </td>
+              <td>████ ██████
               </td>
               <td>
-                6
+                f
               </td>
               <td >██ / ██ / ████ </td>
-               <td rowspan="5">
-                4
+              <td>
+                Village
               </td>
               <td rowspan="5">
-                1
-              </td>
-              <td rowspan="5">
-                   <input name="B" type="" value="" pattern="5" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                   <input name="name" type="" value="" pattern="1" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                7
+                g
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                Village
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                8
+                h
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                Town
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                9
+                i
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                Village
               </td>
             </tr>
             <tr class="bb">
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                10
+                j
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                City
               </td>
             </tr>
             <tr >
@@ -168,66 +193,75 @@ Now that we have converted the code from the employment team we just need to add
                 C
               </td>
               <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                11
+                k
               </td>
               <td >
                 ██ / ██ / ████
               </td>
-          <td rowspan="5">
-                3
+              <td>
+                Town
               </td>
               <td rowspan="5">
-                3
-              </td>
-              <td rowspan="5">
-                 <input name="C" type="" value="" pattern="6" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+                 <input name="C" type="" value="" pattern="1" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                12
+                l
               </td>
                          <td >
                 ██ / ██ / ████
               </td>
+              <td>
+                Village
+              </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                13
+                m
               </td>
                           <td >
                 ██ / ██ / ████
               </td>
+              <td>
+                City
+              </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                14
+                n
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                Town
               </td>
             </tr>
             <tr class="bb">
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                15
+                o
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                Town
               </td>
             </tr>
             <tr>
@@ -235,65 +269,74 @@ Now that we have converted the code from the employment team we just need to add
                 D
               </td>
               <td >
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                16
+                p
               </td>
               <td >
                 ██ / ██ / ████
               </td>
-          <td rowspan="5">
-                1
+              <td>
+                City
               </td>
               <td rowspan="5">
-                1
-              </td>
-              <td rowspan="5">
-     <input name="D" type="" value="" pattern="2" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+     <input name="D" type="" value="" pattern="4" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                17
+                q
               </td>
                          <td >
                 ██ / ██ / ████
               </td>
-            </tr>
-            <tr>
-                <td>
-              ████ ████
-              </td>
               <td>
-                18
-              </td>
-                         <td >
-                ██ / ██ / ████
+                City
               </td>
             </tr>
             <tr>
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                19
+                r
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                City
+              </td>
+            </tr>
+            <tr>
+                <td>
+              ████ ██████
+              </td>
+              <td>
+                s
+              </td>
+                         <td >
+                ██ / ██ / ████
+              </td>
+              <td>
+                City
               </td>
             </tr>
             <tr class="bb">
                 <td>
-              ████ ████
+              ████ ██████
               </td>
               <td>
-                20
+                t
               </td>
                          <td >
                 ██ / ██ / ████
+              </td>
+              <td>
+                Village
               </td>
             </tr>
           </tbody>
@@ -302,32 +345,5 @@ Now that we have converted the code from the employment team we just need to add
 
 ## Which is School Zero?
 
-<input name="zero" type="" value="" pattern="C" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+<input name="zero" type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
-
-
-
- <form action="/environment6" id="myForm" >
-<input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
-<button class="btn" type="submit">Submit</button>
-</form>
-
-<script type="text/javascript">
-    window.onload = function () {
-    let form = document.getElementById("myForm");
-    let inputs = form.children;
-    for (let i = 0; i < inputs.length; i++) {
-        let el = inputs[i];
-        if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
-            continue
-        }
-        let cachedVal = localStorage.getItem(el.attributes["name"].value)
-        if (cachedVal != null) {
-            el.value = cachedVal;
-        }
-
-
-    }
-}
-
-  </script>
