@@ -14,11 +14,17 @@ team: None
     <img class="bug" width="400px" height="600px" src="/img/bug.svg" alt="Newspaper showing crisis">
   </div>
 
-  <div class="grid-column-1">
+  <div class="grid-column-1-md">
+
+As public health researchers, we use data from surveys, health records and other sources, to understand where and why some people are less healthy than others. Data Detective will show you how and why we use data
 
 Data Detective is a game to show how you to link data securely to help stop the spread of a mystery disease.
 
 The game should take no more than 10 minutes.
+
+
+
+
 
 
 <a class="btn" href="/play">Play Now &rarr;</a>
@@ -27,7 +33,7 @@ The game should take no more than 10 minutes.
 </div>
 
 
-<div class=" mt1 grid grid-md-2 grid-column-gap-2">
+<div class=" mt1 grid grid-md-3 grid-column-gap">
 
 <div class="text-container mb1">
 
@@ -35,7 +41,21 @@ The game should take no more than 10 minutes.
 
 This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abbr title="Chief Scientist Office">CSO</abbr> Social and Public Health Sciences Unit.
 
-<a target="_blank" href="https://www.gla.ac.uk/researchinstitutes/healthwellbeing/research/mrccsosocialandpublichealthsciencesunit/">Read more about us</a>
+<a target="_blank" href="https://www.gla.ac.uk/researchinstitutes/healthwellbeing/research/mrccsosocialandpublichealthsciencesunit/">Read more about us &#11016;</a>
+
+
+
+</div>
+
+<div class="text-container mb1">
+
+## What do Public Health Researchers do?
+
+Find out more about what public health researchers do.
+
+
+<a target="_blank" href="https://www.gla.ac.uk/media/Media_781620_smxx.pdf">Download profiles
+&#8595;</a>
 
 
 

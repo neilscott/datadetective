@@ -229,13 +229,14 @@ figure {
   position:relative;
 }
 figcaption {
-  font-size: .75rem;
-  //text-align: right;
-  transform: rotate(90deg);
-  position:absolute;
-top: 4rem;
-right: -2rem;
-opacity: .5;
+font-size: 0.75rem;
+transform: rotate(90deg);
+position: absolute;
+transform-origin: 0 0;
+top: -1rem;
+right: -9rem;
+opacity: 0.5;
+width: 10rem;
   a {
     font-weight: 300;
     color: var(--black);
