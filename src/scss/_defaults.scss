@@ -311,19 +311,6 @@ max-width: 75ch;
 
 
 
-#date {
-  color: #111;
-  position:absolute;
-  top: 4.5vw;
-  left: 5vw;
-
-  font-family: "Times New Roman", serif;
-  @include mq($from:m) {
-  top: 2vw;
-  left: 2vw;font-size: .5rem;
-}
-}
-
 
 .team{
   border: 1px solid;
