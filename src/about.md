@@ -4,9 +4,7 @@ layout: "base.njk"
 team: "None"
 ---
 
-
 # About Data Detective
-
 
 The aim of Data Detective is to show how and why data are shared in research. People are assigned to two teams, each with different data. They are asked complete some simple sums to identify which school is going to be hit next by the outbreak of a disease.
 
@@ -29,6 +27,3 @@ Using the example of an infectious disease, Data Detectives will demonstrate tha
 - In these situations, data are shared safely, they are only shared among approved persons, and they are only used to answer pre-specified and approved research questions.
 
 <a class="btn" href="/play">Play the Game</a>
-
-  </div>
-</div>

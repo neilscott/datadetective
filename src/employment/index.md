@@ -31,10 +31,6 @@ Research shows that parents who are key workers, i.e. those who work in hospital
 You&rsquo;re going to need to use the Employment data to work out which school is at highest risk.
 
 
-
-
-
-
 <a class="btn" href="/employment2">Get your data &rarr;</a>
 
   </div>
