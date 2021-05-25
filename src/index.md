@@ -58,7 +58,6 @@ Find out more about what public health researchers do.
 &#8595;</a>
 
 
-
 </div>
 
 <div class="text-container mb1">

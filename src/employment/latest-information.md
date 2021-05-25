@@ -16,13 +16,13 @@ team: "Employment"
 
   <div class="grid-column-1-md">
 
+Thanks for providing us with your findings
 
-Thanks for providing us with your findings. Unfortunately, the teams have identified different schools.
+You have provided us with the correct score. Unfortunately, though, the Environment Team and the Employment Team have identified different schools.
 
 An update from our researchers indicates that we need to know about parents&rsquo; jobs **AND** where children live to identify the correct school.
 
-This is no longer a race between teams. You’re going to have to work together and share data.
-
+This is no longer a race between teams. You're going to have to work together and share data.
 
 
 

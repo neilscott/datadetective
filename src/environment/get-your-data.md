@@ -13,7 +13,9 @@ Using the data below (some data has been removed for privacy), enter the Environ
 At the bottom of the page type in the ID of 'School Zero' (the one with the highest score) and click Check Your Answers.
 
 
-
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
 
 <div class="table-overflow mb1">
 <form  method="get" action="/environment/check-data">
