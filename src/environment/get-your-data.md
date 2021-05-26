@@ -13,35 +13,58 @@ Using the data below (some data has been removed for privacy), enter the Environ
 At the bottom of the page type in the ID of 'School Zero' (the one with the highest score) and click Check Your Answers.
 
 
-<div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+Below you will see your dataset. Take a brief look over it now &mdash; hover your cursor over each table heading to find out more.
 
 <div class="table-overflow mb1">
 <form  method="get" action="/environment/check-data">
  <table>
-          <thead>
-            <tr>
-              <th>
-                School ID
-              </th>
-              <th>
-                Pupil name
-              </th>
-              <th>
-                Pupil ID
-              </th>
-              <th>
-                Date of Birth
-              </th>
-              <th>
-               Area of residence
-              </th>
-              <th>
+    <thead>
+        <tr>
+          <th>
+            <div class="tooltip">
+              School ID
+              <span class="tooltiptext">
+                School ID: there are four schools, labelled A-D. Their names have been removed for privacy purposes. These IDs will allow you to tell one school from the other, while not actually knowing which schools they are.
+              </span>
+            </div>
+          </th>
+          <th>
+            <div class="tooltip">
+              Pupil name
+              <span class="tooltiptext">
+                Children's names have been blanked out for privacy reasons
+              </span>
+            </div>
+          </th>
+          <th>
+            <div class="tooltip">
+              Pupil ID
+              <span class="tooltiptext">
+                Pupil ID has been given to you in places of the children’s names. There are 20 children in the dataset, five from each school
+              </span>
+            </div>
+          </th>
+          <th>
+            <div class="tooltip">
+              Date of Birth
+              <span class="tooltiptext">
+                Date of birth was included in the original dataset, but it was removed before you were given access. This is because age is not thought to be important in deciding who could catch the disease.
+              </span>
+            </div>
+          </th>
+          <th>
+            <div class="tooltip">
+             Area of residence
+              <span class="tooltiptext">
+                Now this is the important bit! This column tells you where the pupils live – you’re going to have to use these data to create the Environment Risk Score – we hope your brain is warmed up for some calculations! Your challenge is listed below the table.
+              </span>
+            </div>
+          </th>
+          <th>
               Risk Score
-              </th>
-            </tr>
-          </thead>
+          </th>
+        </tr>
+      </thead>
           <tbody>
             <tr >
               <td rowspan="5">
@@ -351,7 +374,6 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
 
 
-
 <script src="/js/jquery-3.6.0.slim.min.js"></script>
 
 <script>
@@ -366,10 +388,8 @@ $(document).ready(function() {
    */
   $('.tooltip').on( "click", function() {
 
-    $( ".tooltiptext" ).removeClass("show");
 
-    $( this ).next( ".tooltiptext" ).toggleClass("show");
-
+$(this).toggleClass('show').parent().siblings().children().removeClass('show');
 
 
 

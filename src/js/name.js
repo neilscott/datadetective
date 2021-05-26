@@ -1,14 +1,9 @@
-window.onload = function () {
-let form = document.getElementById("myForm");
-let inputs = form.children;
-for (let i = 0; i < inputs.length; i++) {
-    let el = inputs[i];
-    if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
-        continue
-    }
-    let cachedVal = localStorage.getItem(el.attributes["name"].value)
-    if (cachedVal != null) {
-        el.value = cachedVal;
-    }
-}
+  // Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  localStorage.setItem("lastname", "Smith");
+  // Retrieve
+  document.getElementById("name").innerHTML = localStorage.getItem("fullName");
+} else {
+  document.getElementById("name").innerHTML = "Sorry, your browser does not support Web Storage...";
 }

@@ -1,9 +1,24 @@
 ---
 title: "New Information!"
 layout: "base.njk"
+team: "None"
 ---
 
-# Congratulations <form  id="myForm" class="dib"><input name="fullName" type="text" class="readonly" readonly=""></form>
+# Congratulations
+
+
+<div class="document certificate">
+
+
+## Congratulations
+
+<span id="name"></span>
+
+
+You have successfully compleet
+
+</div>
+
 
 
 <div class="grid grid-md-2 two-column-md">
@@ -31,29 +46,18 @@ Option to now play the game again as the other team. NB the final outcome will a
 
 
 
+</div>
 <script type="text/javascript">
-    window.onload = function () {
-    let form = document.getElementById("myForm");
-    let inputs = form.children;
-    for (let i = 0; i < inputs.length; i++) {
-        let el = inputs[i];
-        if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
-            continue
-        }
-        let cachedVal = localStorage.getItem(el.attributes["name"].value)
-        if (cachedVal != null) {
-            el.value = cachedVal;
-        }
-    }
-}
+  function store(){
+     var inputName= document.getElementById("fullName");
+     localStorage.setItem("fullName", inputName.value);
+  }
 
-
-function clearCache() {
-    localStorage.clear()
-}
 
   </script>
+<script>
 
-<!--<a class="btn" href="/environment5">Work with the other team</a>-->
+  // Retrieve
+  document.getElementById("name").innerHTML = localStorage.getItem("fullName");
 
-</div>
+</script>

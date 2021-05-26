@@ -12,7 +12,7 @@
       box-shadow:none!important;
       text-shadow:none!important
   }
-  footer,header{
+  footer,header, .btn{
       display:none
   }
   h2{
@@ -26,10 +26,17 @@
   #comments,#respond,.site-footer,.site-header,aside#sidebar{
       display:none
   }
-  #main{
+  article {
       width:90%;
       margin:0px;
-      padding:0px
+      padding:0px;
+      display: block;
+  }
+  .grid {
+    display: block;
+  }
+  .text-container {
+    padding:0;
   }
   a:after{
       content:"( " attr(href) " )"

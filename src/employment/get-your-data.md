@@ -88,7 +88,6 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
           </td>
           <td rowspan="5">
             <input name="name" oninput="setCustomValidity('')" oninvalid="setCustomValidity('Sorry that’s not right')" pattern="0" required="" type="" value="">
-            </input>
           </td>
         </tr>
         <tr>
@@ -164,9 +163,7 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
             Yes
           </td>
           <td rowspan="5">
-            <input name="name" oninput="setCustomValidity('')" oninvalid="setCustomValidity('Sorry that’s not right')" pattern="4" required="" type="" value="">
-            </input>
-          </td>
+            <input name="name" oninput="setCustomValidity('')" oninvalid="setCustomValidity('Sorry that’s not right')" pattern="4" required="" type="" value=""></td>
         </tr>
         <tr>
           <td>
@@ -242,7 +239,6 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
           </td>
           <td rowspan="5">
             <input name="C" oninput="setCustomValidity('')" oninvalid="setCustomValidity('Sorry that’s not right')" pattern="3" required="" type="" value="">
-            </input>
           </td>
         </tr>
         <tr>
@@ -319,7 +315,6 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
           </td>
           <td rowspan="5">
             <input name="D" oninput="setCustomValidity('')" oninvalid="setCustomValidity('Sorry that’s not right')" pattern="1" required="" type="" value="">
-            </input>
           </td>
         </tr>
         <tr>
@@ -380,8 +375,8 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
         </tr>
       </tbody>
     </table>
-  </form>
-</div>
+
+
 
 Enter the Employment Risk Score for each school in the last column of the table. You can get this by adding up the number of children who have key worker parents in each school.
 
@@ -393,7 +388,7 @@ Once you have done this, enter the ID of 'School Zero' (the one with the highest
 
 <input name="zero" type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
-
+</div>
 <script src="/js/jquery-3.6.0.slim.min.js"></script>
 
 <script>
@@ -410,9 +405,6 @@ $(document).ready(function() {
 
 
 $(this).toggleClass('show').parent().siblings().children().removeClass('show');
-
-
-
 
 
 

@@ -28,13 +28,6 @@ You will need to read and sign this data sharing agreement.
 
 
 
-
-
-
-
-
-
-
 Signed:
 
  <form action="/environment/data-sharing/" id="myForm" >

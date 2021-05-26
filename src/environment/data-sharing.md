@@ -11,7 +11,7 @@ In order to securely share your data with the other team..
 Your linkage key is <strong>A 4</strong>. Line up the code wheel to that position and convert the School ID into a sharing ID (W,X,Y or Z).
 
 
-
+<span id="name"></span>
 
 
 <!--
@@ -74,7 +74,7 @@ When communication officers return with signed agreement, hand them the Sharing 
         </table>
 
 
-<input name="fullName" type="text" >
+
 
 
 
@@ -109,7 +109,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
- <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+ <script type="text/javascript" src="/js/jquery-3.6.0.slim.min.js"></script>
 
 
 
@@ -186,25 +186,6 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
-<script type="text/javascript">
-    window.onload = function () {
-    let form = document.getElementById("myForm");
-    let inputs = form.children;
-    for (let i = 0; i < inputs.length; i++) {
-        let el = inputs[i];
-        if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
-            continue
-        }
-        let cachedVal = localStorage.getItem(el.attributes["fullName"].value)
-        if (cachedVal != null) {
-            el.value = cachedVal;
-        }
-
-
-    }
-}
-
-  </script>
 
 
 

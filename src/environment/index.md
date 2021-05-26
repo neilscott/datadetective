@@ -8,10 +8,20 @@ team: Environment
 # Environment Team
 
 
-<div class="grid grid-md-2 two-column-md">
+<div class="grid grid-md-2 dense two-column-md">
   <div class="mb1 grid-column-2-md">
-    <img src="/img/environment.svg" alt="">
+     <figure>
+      <img src="/img/environment.svg" alt="Nature and Roads">
+    <figcaption><a target="_blank" rel="noopener"   href="https://www.freepik.com/vectors/people">Image created by rawpixel.com</a></figcaption>
+    </figure>
+
+
+
   </div>
+
+
+
+
 
   <div class="grid-column-1-md">
 

@@ -6,20 +6,11 @@ team: "Employment"
 
 # Data Sharing
 
-<span id="result"></span>, in order to securely share your data with the other team, you'll need to convert the School ID into a Sharing ID.
+Below is a small table which contains the Risk Score that you calculated in the previous exercise. Your job now is to prepare the dataset so that it can be shared with the Environment team. The Environment team uses a different School ID to you, <span id="name"></span>, so you'll need to use a Sharing ID to share your Risk Score.
 
-The linkage key is <strong>A 4</strong>.
+The Chief Scientist has provided you with a Linkage Key, **A4**. Swivel the wheel so that the letter A (in the outer wheel) and the number 4 (in the inner wheel) are lined up. The middle wheel will now tell you what the Sharing ID is for each school
 
-<div class="show-md">
 
-Line up the code wheel to that position and convert School IDs (A,B,C,D) into sharing IDs (W,X,Y,Z).
-
-</div>
-<div class="hide-md">
-
-Line up the code wheel to that position and convert School IDs (A,B,C,D) into sharing IDs (W,X,Y,Z).
-
-</div>
 
 
 
@@ -48,6 +39,9 @@ When communication officers return with signed agreement, hand them the Sharing 
             <th>
                 School
               </th>
+                <th>
+              Risk Score
+              </th>
               <th>
                Sharing ID
               </th>
@@ -56,21 +50,22 @@ When communication officers return with signed agreement, hand them the Sharing 
           <tbody>
             <tr>
               <td>A</td>
+              <td>3</td>
               <td>
      <input type="" value="" pattern="Z" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>B</td>
+              <td>B</td>   <td>1</td>
               <td>
      <input type="" value="" pattern="Y" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>C</td>
+              <td>C</td>   <td>1</td>
               <td>
      <input  type="" value="" pattern="X" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
             <tr>
-              <td>D</td>
+              <td>D</td>   <td>4</td>
               <td>
      <input  type="" value="" pattern="W" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  ></td>
             </tr>
@@ -83,7 +78,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 <div >
- <ul class="circle-outer "  style="transform: rotate(315deg);" >
+ <ul class="circle-outer   circle-light-blue"  style="transform: rotate(315deg);" >
 
 
   <li><div class="text">A</div></li>
@@ -91,7 +86,7 @@ When communication officers return with signed agreement, hand them the Sharing 
     <li><div class="text">C</div></li>
     <li><div class="text">D</div></li>
 
- <ul class="circle draggable_wp" id="target"  style="transform: rotate(30deg);">
+ <ul class="circle draggable_wp circle-lighter-blue" id="target"  style="transform: rotate(30deg);">
   <li><div class="text">W</div></li>
     <li><div class="text">Z</div></li>
     <li><div class="text">Y</div></li>
@@ -118,13 +113,8 @@ When communication officers return with signed agreement, hand them the Sharing 
 <script src="/js/codewheel.js"></script>
 
 <script>
-  // Check browser support
-if (typeof(Storage) !== "undefined") {
-  // Store
-  localStorage.setItem("lastname", "Smith");
+
   // Retrieve
-  document.getElementById("result").innerHTML = localStorage.getItem("fullName");
-} else {
-  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
+  document.getElementById("name").innerHTML = localStorage.getItem("fullName");
+
 </script>

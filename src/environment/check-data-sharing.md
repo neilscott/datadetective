@@ -1,16 +1,19 @@
 ---
 title: "Thank you"
 layout: "base.njk"
-team: Environment
+team: "Environment"
 ---
 
-# Thank you
+# Checking Shared Data
 
-We will audit your results and get in touch shortly, if we need any other information.
+We are auditing your results and get in touch shortly, if we need any other information.
 
 
+<script src="/js/lottie-player.js"></script>
 
 <lottie-player autoplay mode="normal" src="/js/lf20_nk7rih3w.json" style="width: 50vh"> </lottie-player>
+
+
 <script>
     function startTimer(duration, display) {
         var timer = duration, minutes, seconds;
@@ -24,7 +27,7 @@ We will audit your results and get in touch shortly, if we need any other inform
             display.textContent = seconds;
 
             if (--timer < 0) {
-                window.location = "/environment/data-decoding/";
+                window.location = "/environment/data-merging/";
                 clearInterval(end);
             }
         }, 1000);

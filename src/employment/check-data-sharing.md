@@ -27,7 +27,7 @@ We are auditing your results and get in touch shortly, if we need any other info
             display.textContent = seconds;
 
             if (--timer < 0) {
-                window.location = "/employment/data-decoding/";
+                window.location = "/employment/data-merging/";
                 clearInterval(end);
             }
         }, 1000);
@@ -45,14 +45,4 @@ We are auditing your results and get in touch shortly, if we need any other info
 
 </form>
 
-<script>
-  // Check browser support
-if (typeof(Storage) !== "undefined") {
-  // Store
-  localStorage.setItem("lastname", "Smith");
-  // Retrieve
-  document.getElementById("result").innerHTML = localStorage.getItem("fullName");
-} else {
-  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
-</script>
+

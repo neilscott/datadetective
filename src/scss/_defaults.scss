@@ -222,8 +222,8 @@ font-size: 0.75rem;
 transform: rotate(90deg);
 position: absolute;
 transform-origin: 0 0;
-top: -1rem;
-right: -9rem;
+top: 0rem;
+right: -10rem;
 opacity: 0.5;
 width: 10rem;
   a {
@@ -265,7 +265,7 @@ blockquote {
 .two-column-home {
 
 
-    display: grid;
+
     grid-auto-flow: row dense;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 1rem;
@@ -276,7 +276,7 @@ blockquote {
 .two-column-md {
 
   @include mq($from:m) {
-    display: grid;
+
     grid-auto-flow: row dense;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;

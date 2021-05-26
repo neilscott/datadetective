@@ -9,16 +9,16 @@ team: None
 
 # Could you be a Data Detective?
 
-<div class="two-column-home mb2">
+<div class="grid two-column-home mb2">
   <div class="mb1 grid-column-2">
     <img class="bug" width="400px" height="600px" src="/img/bug.svg" alt="Newspaper showing crisis">
   </div>
 
   <div class="grid-column-1-md">
 
-As public health researchers, we use data from surveys, health records and other sources, to understand where and why some people are less healthy than others. Data Detective will show you how and why we use data
+As [public health researchers](/team), we use data from surveys, health records and other sources, to understand where and why some people are less healthy than others. Data Detective will show you how and why we use data
 
-Data Detective is a game to show how you to link data securely to help stop the spread of a mystery disease.
+**Data Detective** is a game to show how you to link data securely to help stop the spread of a mystery disease.
 
 The game should take no more than 10 minutes.
 
