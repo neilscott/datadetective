@@ -12,7 +12,7 @@ team: "Employment"
   <div class="mb1 grid-column-2-md">
     <figure>
     <img src="/img/checkout.svg" alt="Checkout">
-    <figcaption><a target="_blank" rel="noopener"  href="http://www.freepik.com">Image by Photoroyalty / Freepik</a></figcaption>
+    <figcaption><a target="_blank" rel="noopener" href="http://www.freepik.com">Image by Photoroyalty / Freepik</a></figcaption>
     </figure>
   </div>
 
