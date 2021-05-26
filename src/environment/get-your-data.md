@@ -349,3 +349,32 @@ At the bottom of the page type in the ID of 'School Zero' (the one with the high
 
 <input name="zero" type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
+
+
+
+<script src="/js/jquery-3.6.0.slim.min.js"></script>
+
+<script>
+
+
+$(document).ready(function() {
+
+
+    /**
+   * when abbreviations are clicked trigger their mouseover event then fade the tooltip
+   * (this is friendly to touch interfaces)
+   */
+  $('.tooltip').on( "click", function() {
+
+    $( ".tooltiptext" ).removeClass("show");
+
+    $( this ).next( ".tooltiptext" ).toggleClass("show");
+
+
+
+
+  });
+
+
+});
+</script>

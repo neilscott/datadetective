@@ -394,3 +394,30 @@ Once you have done this, enter the ID of 'School Zero' (the one with the highest
 <input name="zero" type="" value="" pattern="B" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
 
+<script src="/js/jquery-3.6.0.slim.min.js"></script>
+
+<script>
+
+
+$(document).ready(function() {
+
+
+    /**
+   * when abbreviations are clicked trigger their mouseover event then fade the tooltip
+   * (this is friendly to touch interfaces)
+   */
+  $('.tooltip').on( "click", function() {
+
+
+$(this).toggleClass('show').parent().siblings().children().removeClass('show');
+
+
+
+
+
+
+  });
+
+
+});
+</script>
