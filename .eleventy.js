@@ -9,8 +9,10 @@ module.exports=function(eleventyConfig){
     dir: {
       input: "src",
       output: "public"
-    }
+    },
+    passthroughFileCopy: true,
   };
+
 
   eleventyConfig.addPairedShortcode("hsbox", (content, title) => {
     return '<div class="hsbox"><div class="hs__title">'
