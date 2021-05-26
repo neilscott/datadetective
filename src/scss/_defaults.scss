@@ -112,20 +112,11 @@ html,input,select,button {
 
 body {
   background-color: var(--beige);
-//  background-image: url('/img/bug.svg');
- // background-repeat:no-repeat;
- // background-attachment:fixed;
- // background-position:  top right;
- // background-size: contain;
   color: var(--black);
   padding-top: 5.75rem;
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-
-
-
 
 
 ul {
@@ -287,29 +278,6 @@ blockquote {
 
 
 
-
-
-
-.team{
-  border: 1px solid;
-  position:absolute;
-  top: 1.25rem;
-  right: 1rem;
-  padding: .25rem .5rem;
-  background-color:white;
-  border-radius:.25rem;
-}
-
-.None .team {
-  display: none;
-}
-.Employment-team {
-  color: var(--light-blue);
-}
-
-.Environment-team {
-  color: var(--green);
-}
 
 
 /* Tooltip container */

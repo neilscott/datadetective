@@ -63,7 +63,7 @@ You will need to read and sign this data sharing agreement.
 <script type="text/javascript">
   function store(){
      var inputName= document.getElementById("fullName");
-     localStorage.setItem("fullName", inputName.value);
+     localStorage.setItem("name", inputName.value);
   }
 
 

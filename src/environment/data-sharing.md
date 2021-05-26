@@ -189,6 +189,10 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 
+<script>
 
+  // Retrieve
+  document.getElementById("name").innerHTML = localStorage.getItem("name");
 
+</script>
 
