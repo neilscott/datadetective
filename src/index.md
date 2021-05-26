@@ -32,41 +32,6 @@ The game should take no more than 10 minutes.
 
 
 
-[https://datadetective.pages.dev/about/](https://datadetective.pages.dev/about/)
-[https://datadetective.pages.dev/cheats/](https://datadetective.pages.dev/cheats/)
-[https://datadetective.pages.dev/conclusion/](https://datadetective.pages.dev/conclusion/)
-[https://datadetective.pages.dev/downloads/](https://datadetective.pages.dev/downloads/)
-[https://datadetective.pages.dev/play/](https://datadetective.pages.dev/play/)
-[https://datadetective.pages.dev/team/](https://datadetective.pages.dev/team/)
-[https://datadetective.pages.dev/](https://datadetective.pages.dev/)
-[https://datadetective.pages.dev/congratulations/](https://datadetective.pages.dev/congratulations/)
-[https://datadetective.pages.dev/employment/check-data-sharing/](https://datadetective.pages.dev/employment/check-data-sharing/)
-[https://datadetective.pages.dev/employment/check-data/](https://datadetective.pages.dev/employment/check-data/)
-[https://datadetective.pages.dev/employment/data-decoding/](https://datadetective.pages.dev/employment/data-decoding/)
-[https://datadetective.pages.dev/employment/data-safety/](https://datadetective.pages.dev/employment/data-safety/)
-[https://datadetective.pages.dev/employment/data-sharing/](https://datadetective.pages.dev/employment/data-sharing/)
-[https://datadetective.pages.dev/employment/get-your-data/](https://datadetective.pages.dev/employment/get-your-data/)
-[https://datadetective.pages.dev/employment/](https://datadetective.pages.dev/employment/)
-[https://datadetective.pages.dev/employment/latest-information/](https://datadetective.pages.dev/employment/latest-information/)
-
-[https://datadetective.pages.dev/employment/total-risk/](https://datadetective.pages.dev/employment/total-risk/)
-[https://datadetective.pages.dev/environment/check-data-sharing/](https://datadetective.pages.dev/environment/check-data-sharing/)
-[https://datadetective.pages.dev/environment/check-data/](https://datadetective.pages.dev/environment/check-data/)
-[https://datadetective.pages.dev/environment/data-decoding/](https://datadetective.pages.dev/environment/data-decoding/)
-[https://datadetective.pages.dev/environment/data-safety/](https://datadetective.pages.dev/environment/data-safety/)
-[https://datadetective.pages.dev/environment/data-sharing/](https://datadetective.pages.dev/environment/data-sharing/)
-[https://datadetective.pages.dev/environment/get-your-data/](https://datadetective.pages.dev/environment/get-your-data/)
-[https://datadetective.pages.dev/environment/](https://datadetective.pages.dev/environment/)
-
-[https://datadetective.pages.dev/environment/latest-information/](https://datadetective.pages.dev/environment/latest-information/)
-
-[https://datadetective.pages.dev/environment/total-risk/](https://datadetective.pages.dev/environment/total-risk/)
-
-
-### Miscelleanous
-[https://datadetective.pages.dev/404.html](https://datadetective.pages.dev/404.html)
-
-
 
   </div>
 </div>
