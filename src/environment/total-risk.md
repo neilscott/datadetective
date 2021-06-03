@@ -1,10 +1,10 @@
 ---
-title: "Data Sharing Set"
+title: "Calculate final risk score"
 layout: "base.njk"
 team: "Environment"
 ---
 
-# Calculate Final Risk Score
+# Calculate final risk score
 
 Now that we have converted the code from the employment team we just need to add up the environment and employment risk scores to get a final risk score.
 

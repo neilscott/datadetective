@@ -5,7 +5,7 @@ team: "Environment"
 pageID: environment-page-7;
 ---
 
-# Data Merging
+# Data merging
 
 Thank you <span id="name"></span> for encoding your data. But that is only half the job. We now need to decode the data from the employment team.
 

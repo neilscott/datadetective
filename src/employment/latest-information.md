@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Employment"
 ---
 
-# Latest Information!
+# Latest information!
 
 <div class="grid grid-md-2 dense grid-column-gap-2">
   <div class="mb1 grid-column-2-md ">

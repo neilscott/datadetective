@@ -5,7 +5,7 @@ team: "Employment"
 pageID: "employment-page-8"
 ---
 
-# Data Merging
+# Data merging
 
 Thanks for sharing your data with the other team. To the right of your dataset, you'll see the dataset that the Environment team has shared with you – enter their risk score into your main dataset, using the Sharing ID
 

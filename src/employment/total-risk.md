@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Employment"
 ---
 
-# Calculate Total Risk Score
+# Calculate total risk score
 
 The Environment team have sent over their coded results. Use the code wheel to convert their Sharing ID into a Risk Score
 

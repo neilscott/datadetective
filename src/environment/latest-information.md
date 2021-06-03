@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Environment"
 ---
 
-# Latest Information!
+# Latest information!
 
 
 <div class="grid grid-md-2 two-column-md">

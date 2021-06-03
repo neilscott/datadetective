@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Employment"
 ---
 
-# Data Safety
+# Data safety
 
 
 <div class="grid grid-md-2 two-column-md">

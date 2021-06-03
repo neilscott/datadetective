@@ -5,7 +5,7 @@ team: Environment
 ---
 
 
-# Environment Team
+# Environment team
 
 
 <div class="grid grid-md-2 dense two-column-md">

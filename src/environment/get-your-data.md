@@ -5,7 +5,7 @@ team: Environment
 ---
 
 
-# Environment Data
+# Environment data
 
 
 Using the data below (some data has been removed for privacy), enter the Environmental Risk Score for each school. You can get this by calculating the number of children living in cities.

@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Environment"
 ---
 
-# Checking Shared Data
+# Checking shared data
 
 We are auditing your results and get in touch shortly, if we need any other information.
 

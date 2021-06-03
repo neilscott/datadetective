@@ -5,10 +5,10 @@ team: Employment
 ---
 
 
-# Employment Data
+# Employment data
 
 
-Using the data below (some data has been removed for privacy), enter the Employment Risk Score for each school. You can get this by calculating the number of children living in cities.
+Using the data below (some data has been removed for privacy), enter the employment risk score for each school. You can get this by calculating the number of children living in cities.
 
 At the bottom of the page type in the ID of 'School Zero' (the school with the highest risk score) and click Check Your Answers.
 

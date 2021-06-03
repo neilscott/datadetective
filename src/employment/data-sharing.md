@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Employment"
 ---
 
-# Data Sharing
+# Data sharing
 
 Below is a small table which contains the Risk Score that you calculated in the previous exercise. Your job now is to prepare the dataset so that it can be shared with the Environment team. The Environment team uses a different School ID to you, <span id="name"></span>, so you'll need to use a Sharing ID to share your Risk Score.
 

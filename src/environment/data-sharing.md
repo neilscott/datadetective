@@ -4,7 +4,7 @@ layout: "base.njk"
 team: "Environment"
 ---
 
-# Data Sharing
+# Data sharing
 
 In order to securely share your data with the other team..
 
