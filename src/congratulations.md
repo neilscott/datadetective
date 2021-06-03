@@ -1,11 +1,12 @@
 ---
-title: "New Information!"
+title: "Congratulations!"
 layout: "base.njk"
 team: "None"
 ---
 
 # Congratulations
 
+We hope you’ve enjoyed becoming a Data Detective – please click here to tell us what you thought.
 
 <div class="document certificate">
 
@@ -15,7 +16,7 @@ team: "None"
 <span id="name"></span>
 
 
-You have successfully compleet
+
 
 </div>
 
@@ -31,6 +32,8 @@ You have successfully compleet
   <div class="grid-column-1">
 
 You have successfully completed the Data Detective game!
+
+
 
 Congratulations on working together. School C.
 

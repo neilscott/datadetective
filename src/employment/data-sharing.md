@@ -86,16 +86,12 @@ When communication officers return with signed agreement, hand them the Sharing 
     <li><div class="text">C</div></li>
     <li><div class="text">D</div></li>
 
- <ul class="circle draggable_wp circle-lighter-blue" id="target"  style="transform: rotate(30deg);">
+ <ul class="circle draggable_wp circle-lighter-blue" id="target" style="transform: rotate(30deg);">
   <li><div class="text">W</div></li>
     <li><div class="text">Z</div></li>
     <li><div class="text">Y</div></li>
     <li><div class="text">X</div></li>
-
-
-
-
- <ul class="circle-inner" style="transform: rotate(180deg);" id="target" >
+ <ul class="circle-inner" style="transform: rotate(180deg);">
   <li><div class="text">1</div></li>
     <li><div class="text">2</div></li>
     <li><div class="text">3</div></li>
@@ -109,7 +105,7 @@ When communication officers return with signed agreement, hand them the Sharing 
 
 
 </div>
-<script src="/js/jquery-3.6.0.slim.min.js"></script>
+
 <script src="/js/codewheel.js"></script>
 
 <script>

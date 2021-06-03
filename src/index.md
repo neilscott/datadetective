@@ -41,7 +41,7 @@ The game should take no more than 10 minutes.
 
 <div class="text-container mb1">
 
-## Who Made This?
+## Who made this?
 
 This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abbr title="Chief Scientist Office">CSO</abbr> Social and Public Health Sciences Unit.
 
@@ -53,7 +53,7 @@ This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abb
 
 <div class="text-container mb1">
 
-## What do Public Health Researchers do?
+## What do public health researchers do?
 
 Find out more about what public health researchers do.
 
@@ -66,7 +66,7 @@ Find out more about what public health researchers do.
 
 <div class="text-container mb1">
 
-## Info for Parents and Teachers
+## Info for parents and teachers
 
 The aim of Data Detective is to show how and why data are shared in research.
 
