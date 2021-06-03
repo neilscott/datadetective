@@ -8,7 +8,7 @@ team: Environment
 # Environment data
 
 
-Using the data below (some data has been removed for privacy), enter the Environmental Risk Score for each school. You can get this by calculating the number of children living in cities.
+Using the data below (some data has been removed for privacy), enter the environmental Risk Score for each school. You can get this by calculating the number of children living in cities.
 
 At the bottom of the page type in the ID of 'School Zero' (the one with the highest score) and click Check Your Answers.
 

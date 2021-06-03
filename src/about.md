@@ -10,14 +10,14 @@ The aim of Data Detective is to show how and why data are shared in research. Pe
 
 The data are fixed so that both teams come up with different answers. It transpires that they need to share data in order to get the correct answer. So the teams go through a series of checks and steps to share their data with each other and recalculate their sums.
 
-## Learning Outcomes
+## Learning outcomes
 The game draws upon a range of skills including:
 
 - Reading skills – players must follow a set of written instructions and read and sign data sharing forms
 - Comprehension skills – players must listen to the Chief Scientist to understand their challenge and what needs to be done to complete the game
 - Mathematics: players must familiarise themselves with the structure and information stored in a simple dataset and use that information to carry out a series of calculations and make recommendations
 
-## Information for Teachers and Parents
+## Information for teachers and parents
 
 Using the example of an infectious disease, Data Detectives will demonstrate that:
 

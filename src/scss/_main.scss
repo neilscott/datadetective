@@ -55,3 +55,65 @@ font-size: .5rem;
   margin-top: 0rem;
   max-height: 60vh;
 }
+
+
+
+.infobox {
+  padding: 1.5rem 7rem 0rem 1rem;
+  margin: 0 0 1rem;
+  border-radius: 1rem;
+  border:1px solid;
+  position:relative;
+
+
+  &::before {
+    content: '?';
+    position:absolute;
+   color:#CED792;
+    top: 20%;
+    line-height: 1;
+    right: 1rem;
+    font-size: 10rem;
+    z-index: 1;
+//opacity:.2;
+  }
+
+}
+
+.Environment {
+  .infobox {
+  background-color: #F1F4DD;
+border-color:  #CED792;
+
+&::before {
+color:#CED792;
+  }
+}
+
+}
+
+.Employment {
+  .infobox {
+  background-color: #E4F3F9;
+  border-color:#B2DCEE;
+
+  &::before {
+color:#B2DCEE;
+  }
+}
+
+}
+
+
+
+.certificate {
+ // background-color: var(--beige);
+  margin: 0 auto;
+  color: var(--tomato);
+
+  #name {
+    color: black;
+    font-family: cursive;
+    font-size: 2rem;
+  }
+}

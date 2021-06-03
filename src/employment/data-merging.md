@@ -42,9 +42,6 @@ When communication officers return with signed agreement, hand them the Sharing 
                 School ID
               </th>
               <th>
-               Employment Risk
-              </th>
-              <th>
                Environment Risk 🔐
               </th>
             </tr>
@@ -53,32 +50,25 @@ When communication officers return with signed agreement, hand them the Sharing 
             <tr>
               <td>Z</td>
               <td>A</td>
-              <td>3</td>
-              <td>0</td>
+              <td>4</td>
             </tr>
             <tr>
               <td>Y</td>
               <td>B</td>
               <td>1</td>
-              <td>4</td>
             </tr>
             <tr>
                <td>X</td>
               <td>C</td>
-              <td>1</td>
               <td>3</td>
             </tr>
             <tr>
               <td>W</td>
               <td>D</td>
-              <td>4</td>
               <td>1</td>
             </tr>
           </tbody>
-        </table>
-
-
-</form>
+        </table></form>
 
 
 

@@ -10,7 +10,6 @@ Now that we have converted the code from the employment team we just need to add
 
 
 
-
 <div class="table-overflow mb2 pb2">
 <form  method="get" action="/congratulations">
  <table >
@@ -306,28 +305,3 @@ Now that we have converted the code from the employment team we just need to add
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
 
 
-
- <form action="/environment6" id="myForm" >
-<input name="fullName" type="text" required="required"  oninput="cacheInput(this)">
-<button class="btn" type="submit">Submit</button>
-</form>
-
-<script type="text/javascript">
-    window.onload = function () {
-    let form = document.getElementById("myForm");
-    let inputs = form.children;
-    for (let i = 0; i < inputs.length; i++) {
-        let el = inputs[i];
-        if (el.tagName.toLowerCase() != "input" || el.attributes["type"].value != "text") {
-            continue
-        }
-        let cachedVal = localStorage.getItem(el.attributes["name"].value)
-        if (cachedVal != null) {
-            el.value = cachedVal;
-        }
-
-
-    }
-}
-
-  </script>

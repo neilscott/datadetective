@@ -45,7 +45,7 @@ The game should take no more than 10 minutes.
 
 This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abbr title="Chief Scientist Office">CSO</abbr> Social and Public Health Sciences Unit.
 
-<a target="_blank" rel="noopener"  href="https://www.gla.ac.uk/researchinstitutes/healthwellbeing/research/mrccsosocialandpublichealthsciencesunit/">Read more about us &#11016;</a>
+<a target="_blank" rel="noopener"  href="https://www.gla.ac.uk/researchinstitutes/healthwellbeing/research/mrccsosocialandpublichealthsciencesunit/">Read more about us</a>
 
 
 
@@ -58,8 +58,7 @@ This game was made by the <abbr title="Medical Research Council">MRC</abbr>/<abb
 Find out more about what public health researchers do.
 
 
-<a target="_blank" rel="noopener"  href="https://www.gla.ac.uk/media/Media_781620_smxx.pdf">Download profiles
-&#8595;</a>
+<a target="_blank" rel="noopener"  href="https://www.gla.ac.uk/media/Media_781620_smxx.pdf">Download researcher profiles</a>
 
 
 </div>
