@@ -6,10 +6,7 @@ team: "Employment"
 
 # Calculate total risk score
 
-The Environment team have sent over their coded results. Use the code wheel to convert their Sharing ID into a Risk Score
-
-
-
+Now that we have converted the code from the environment team we just need to add up the environment and employment risk scores to get a final risk score.
 
 
 

@@ -6,7 +6,8 @@ team: "Employment"
 
 # Checking shared data
 
-We are auditing your results and get in touch shortly, if we need any other information.
+
+Please hold on for <span id="time">5</span> seconds while we check your results.
 
 
 <script src="/js/lottie-player.js"></script>
@@ -40,7 +41,7 @@ We are auditing your results and get in touch shortly, if we need any other info
     };
 </script>
 
-<p>Please hold on for <span id="time">5</span> seconds.</p>
+
 <form id="form1" runat="server">
 
 </form>

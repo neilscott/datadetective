@@ -6,7 +6,7 @@ team: "Employment"
 
 # Thank you
 
-We will audit your results and get in touch shortly, if we need any other information.
+Please hold on for <span id="time">5</span> seconds while we check your results.
 
 
 <script src="/js/lottie-player.js"></script>
@@ -40,5 +40,5 @@ We will audit your results and get in touch shortly, if we need any other inform
 </script>
 
 
-<p>Please hold on for <span id="time">5</span> seconds.</p>
+
 
