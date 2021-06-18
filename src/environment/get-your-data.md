@@ -68,7 +68,7 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
           <tbody>
             <tr >
               <td rowspan="5">
-                A
+                I
               </td>
               <td>
               ████ ██████
@@ -142,7 +142,7 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
             </tr>
             <tr >
               <td rowspan="5">
-                B
+                II
               </td>
               <td>████ ██████
               </td>
@@ -215,7 +215,7 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
             </tr>
             <tr >
               <td rowspan="5">
-                C
+                III
               </td>
               <td>
               ████ ██████
@@ -291,7 +291,7 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
             </tr>
             <tr>
               <td rowspan="5">
-                D
+                IV
               </td>
               <td >
               ████ ██████
@@ -370,7 +370,7 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
 
 ## Which is School Zero?
 
-<input name="zero" type="" value="" pattern="D" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
+<input name="zero" type="" value="" pattern="IV" required oninvalid="setCustomValidity('Sorry that&rsquo;s not right')"  oninput="setCustomValidity('')"  >
 <button  type="submit"  class="btn" name="Test">Check Your Answers</button></form>
 
 
