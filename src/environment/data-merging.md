@@ -7,12 +7,9 @@ pageID: environment-page-7;
 
 # Data merging
 
-Thanks for sharing your data with the other team. To the right of your dataset, you'll see the dataset that the Employment team has shared with you – enter their risk score into your main dataset, using the Sharing ID
+Thanks for sharing your data with the other team. Click below to merge your data.
 
-
-
-
-
+On the next page you can calculate the total risk score.
 
 
 
@@ -63,7 +60,7 @@ Thanks for sharing your data with the other team. To the right of your dataset, 
 
 
  </div>
-<a href="/environment/total-risk/" class="btn">Calculate Total Risk Score &rarr;</a>
+<a href="/environment/total-risk/" class="btn">Merge your data &rarr;</a>
 
 
 
