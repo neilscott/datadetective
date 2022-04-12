@@ -16,13 +16,11 @@ team: None
 
   <div class="grid-column-1-md">
 
-As [public health researchers](/team), we use data from surveys, health records and other sources, to understand where and why some people are less healthy than others. Data Detective will show you how and why we use data
+As [public health researchers](/team), we use data from surveys, health records, and other sources, to understand where and why some people are less healthy than others. Data Detective will show you how and why we use data.
 
 **Data Detective** is a game to show how you to link data securely to help stop the spread of a mystery disease.
 
 The game should take no more than 10 minutes.
-
-
 
 
 
@@ -37,7 +35,7 @@ The game should take no more than 10 minutes.
 </div>
 
 
-<div class=" mt1 grid grid-md-3 grid-column-gap">
+<div class="mt1 grid grid-md-3 grid-column-gap">
 
 <div class="text-container mb1">
 
