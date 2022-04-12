@@ -10,6 +10,7 @@ team: Employment
 
 Using the data below (some data has been removed for privacy), enter the employment risk score for each school. You can get this by adding up the number of pupils with a key worker parent.
 
+
 At the bottom of the page type in the ID of 'School Zero' (the school with the highest risk score) and click Check Your Answers.
 
 Below you will see your dataset. Take a brief look over it now &mdash; hover your cursor over each table heading to find out more.

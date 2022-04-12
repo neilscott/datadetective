@@ -83,7 +83,7 @@ Your linkage key is <strong>III 3</strong>. Line up the code wheel to that posit
     <li><div class="text">X</div></li>
     <li><div class="text">Y</div></li>
     <li><div class="text">Z</div></li>
- <ul class="circle-inner" style="transform: rotate(-70deg);">
+ <ul class="circle-inner" style="transform: rotate(-90deg);">
   <li><div class="text">1</div></li>
     <li><div class="text">2</div></li>
     <li><div class="text">3</div></li>

@@ -25,7 +25,7 @@ team: Environment
 
 You hold neighbourhood data on Glasgow, which tells you which pupils live in cities.
 
-This is really useful data to have, because the  in which we live can affect our health.
+This is really useful data to have, because the environment in which we live can affect our health.
 
 <div class="infobox">
 
