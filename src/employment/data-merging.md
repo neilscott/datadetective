@@ -11,12 +11,6 @@ Thanks for sharing your data with the other team. To the right of your dataset, 
 
 
 
-<!--
-
-
-When communication officers return with signed agreement, hand them the Sharing dataset and the linkage key. If one arrives before the other, ask them to wait for a moment while you finish something important. Once both communication officers have arrived:
-  <form id="myForm" ><input name="fullName" class="clearinput" type="text" class="b-none" readonly><br>
- </form>-->
 
 
 

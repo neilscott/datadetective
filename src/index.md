@@ -22,14 +22,7 @@ As [public health researchers](/team), we use data from surveys, health records,
 
 The game should take no more than 10 minutes.
 
-
-
-
 <a class="btn" href="/play">Play Now &rarr;</a>
-
-
-
-
 
   </div>
 </div>
@@ -72,4 +65,3 @@ The aim of Data Detective is to show how and why data are shared in research.
 </div>
 
 </div>
-

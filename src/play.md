@@ -35,7 +35,6 @@ The Environment team has data on the types of areas that children live in, where
 Your challenge is to find out which Glasgow school is most likely to be hit by the disease first, so we can dispatch the vaccine and prevent the disease spreading.
 
 
-
 <button class="btn no-js-hide" onclick="randomSite();">Join your team &rarr;</button><a class="btn no-js-show" href="/environment" onclick="randomSite();">Environment &rarr;</a>
 
 <a class="btn no-js-show" href="/employment" onclick="randomSite();">Employment &rarr;</a>

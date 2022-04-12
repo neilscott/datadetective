@@ -8,10 +8,9 @@ team: Employment
 # Employment data
 
 
-Using the data below (some data has been removed for privacy), enter the employment risk score for each school. You can get this by adding up the number of children living in cities.
+Using the data below (some data has been removed for privacy), enter the employment risk score for each school. You can get this by adding up the number of pupils with a key worker parent.
 
 At the bottom of the page type in the ID of 'School Zero' (the school with the highest risk score) and click Check Your Answers.
-
 
 Below you will see your dataset. Take a brief look over it now &mdash; hover your cursor over each table heading to find out more.
 
@@ -375,7 +374,6 @@ Below you will see your dataset. Take a brief look over it now &mdash; hover you
         </tr>
       </tbody>
     </table>
-
 
 
 Enter the Employment Risk Score for each school in the last column of the table. You can get this by adding up the number of children who have key worker parents in each school.

@@ -20,7 +20,7 @@ team: "None"
 
 
 
-The website was designed and built by Neil Scott, with input from Enni Pulkkinen, Paul Henery and Anna Pearce.
+The website was designed and built by [Neil Scott](https://www.neil-scott), with input from Enni Pulkkinen, Paul Henery and Anna Pearce.
 
 
 Anna Pearce and Paul Henery are funded by the Wellcome Trust [205412/Z/16/Z] and ScotPEN [217078/Z/19/Z] Gillian Bell and Enni Pulkkinen are part of the Knowledge team within SPHSU, which receives funding from the MRC [MC_UU_00022/2] and CSO [SPHSU17].

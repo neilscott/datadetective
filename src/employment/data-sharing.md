@@ -6,26 +6,10 @@ team: "Employment"
 
 # Data sharing
 
-Below is a small table which contains the Risk Score that you calculated in the previous exercise. Your job now is to prepare the dataset so that it can be shared with the Environment team. The Environment team uses a different School ID to you, <span id="name"></span>, so you'll need to use a Sharing ID to share your Risk Score.
-
+Below is a small table which contains the Risk Score that you calculated in the previous exercise. Your job now is to prepare the dataset so that it can be shared with the Environment team. The Environment team uses a different School ID to you so you'll need to use a Sharing ID to share your Risk Score.
 
 
 The Chief Scientist has provided you with a Linkage Key, **A4**. <span class="no-touch">Swivel the wheel so that the letter A (in the outer wheel) and the number 4 (in the inner wheel) are lined up.</span> The middle wheel will now tell you what the Sharing ID is for each school
-
-
-
-
-
-
-<!--
-
-
-When communication officers return with signed agreement, hand them the Sharing dataset and the linkage key. If one arrives before the other, ask them to wait for a moment while you finish something important. Once both communication officers have arrived:
-  <form id="myForm" ><input name="fullName" class="clearinput" type="text" class="b-none" readonly><br>
- </form>-->
-
-
-
 
 
 
