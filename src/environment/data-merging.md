@@ -17,7 +17,6 @@ On the next page you can calculate the total risk score.
 
 
 
-
 <form  method="get" action="/environment/total-risk/">
  <table>
           <thead>
